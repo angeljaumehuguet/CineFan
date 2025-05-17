@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App name -->
+    <string name="app_name">CineFan</string>
+    
+    <!-- General texts -->
+    <string name="loading">Cargando…</string>
+    <string name="cancel">Cancelar</string>
+    <string name="accept">Aceptar</string>
+    <string name="retry">Reintentar</string>
+    <string name="ok">OK</string>
+    <string name="save">Guardar</string>
+    <string name="delete">Eliminar</string>
+    <string name="edit">Editar</string>
+    <string name="search">Buscar</string>
+    <string name="share">Compartir</string>
+    <string name="press_back_again_to_exit">Presione Atrás nuevamente para salir</string>
+    
+    <!-- Error messages -->
+    <string name="error_network">Error de conexión. Compruebe su conexión a Internet.</string>
+    <string name="error_timeout">La solicitud tardó demasiado tiempo. Inténtelo de nuevo.</string>
+    <string name="error_server">Error del servidor. Inténtelo más tarde.</string>
+    <string name="error_auth">Error de autenticación. Inicie sesión nuevamente.</string>
+    <string name="error_unknown">Ha ocurrido un error inesperado.</string>
+    <string name="error_no_internet">Sin conexión a Internet</string>
+    
+    <!-- Login and Register -->
+    <string name="login">Iniciar Sesión</string>
+    <string name="register">Registrarse</string>
+    <string name="username">Usuario</string>
+    <string name="email">Correo electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="confirm_password">Confirmar contraseña</string>
+    <string name="full_name">Nombre completo</string>
+    <string name="forgot_password">¿Olvidó su contraseña?</string>
+    <string name="has_account">¿Ya tiene cuenta? Inicie sesión</string>
+    <string name="no_account">¿No tiene cuenta? Regístrese</string>
+    
+    <!-- Form errors -->
+    <string name="error_empty_username">Ingrese un usuario</string>
+    <string name="error_empty_email">Ingrese un correo electrónico</string>
+    <string name="error_invalid_email">El correo electrónico no es válido</string>
+    <string name="error_empty_password">Ingrese una contraseña</string>
+    <string name="error_empty_fullname">Ingrese su nombre completo</string>
+    <string name="error_password_mismatch">Las contraseñas no coinciden</string>
+    <string name="error_password_requirements">La contraseña debe tener al menos 8 caracteres, una mayúscula, una minúscula, un número y un carácter especial</string>
+    
+    <!-- Main menu -->
+    <string name="home">Inicio</string>
+    <string name="movies">Películas</string>
+    <string name="lists">Listas</string>
+    <string name="profile">Perfil</string>
+    <string name="settings">Configuración</string>
+    <string name="logout">Cerrar sesión</string>
+    
+    <!-- Home screen -->
+    <string name="welcome">Bienvenido a CineFan</string>
+    <string name="welcome_user">Bienvenido, %1$s</string>
+    <string name="app_description">Tu app para descubrir, valorar y gestionar películas</string>
+    <string name="title_new_movies">Novedades</string>
+    <string name="title_recommended">Recomendadas para ti</string>
+    <string name="title_popular">Populares</string>
+    <string name="see_all">Ver todo</string>
+    
+    <!-- Movies -->
+    <string name="add_movie">Añadir película</string>
+    <string name="movie_details">Detalles de la película</string>
+    <string name="director">Director</string>
+    <string name="year">Año</string>
+    <string name="genre">Género</string>
+    <string name="duration">Duración</string>
+    <string name="rating">Valoración</string>
+    <string name="synopsis">Sinopsis</string>
+    <string name="add_to_list">Añadir a lista</string>
+    <string name="favorite">Favorito</string>
+    <string name="rate">Valorar</string>
+    <string name="trailer">Ver tráiler</string>
+    <string name="similar_movies">Películas similares</string>
+    <string name="minutes">min</string>
+    
+    <!-- Movie form -->
+    <string name="title">Título</string>
+    <string name="poster">Póster</string>
+    <string name="trailer_url">URL del tráiler</string>
+    <string name="create_movie">Crear película</string>
+    <string name="update_movie">Actualizar película</string>
+    
+    <!-- Lists -->
+    <string name="add_list">Crear lista</string>
+    <string name="list_details">Detalles de la lista</string>
+    <string name="list_name">Nombre de la lista</string>
+    <string name="list_description">Descripción</string>
+    <string name="is_public">Lista pública</string>
+    <string name="created_on">Creada el</string>
+    <string name="edit_list">Editar lista</string>
+    <string name="delete_list">Eliminar lista</string>
+    <string name="remove_from_list">Quitar de la lista</string>
+    <string name="movies_count">%1$d películas</string>
+    <string name="empty_list">Esta lista está vacía</string>
+    <string name="empty_lists">Aún no has creado ninguna lista</string>
+    
+    <!-- Profile -->
+    <string name="edit_profile">Editar perfil</string>
+    <string name="change_password">Cambiar contraseña</string>
+    <string name="old_password">Contraseña actual</string>
+    <string name="new_password">Nueva contraseña</string>
+    <string name="account_settings">Configuración de cuenta</string>
+    <string name="member_since">Miembro desde</string>
+    <string name="save_changes">Guardar cambios</string>
+    
+    <!-- Settings -->
+    <string name="language">Idioma</string>
+    <string name="theme">Tema</string>
+    <string name="notifications">Notificaciones</string>
+    <string name="about">Acerca de</string>
+    <string name="version">Versión</string>
+    <string name="terms">Términos y condiciones</string>
+    <string name="privacy">Política de privacidad</string>
+    <string name="light_theme">Tema claro</string>
+    <string name="dark_theme">Tema oscuro</string>
+    <string name="system_theme">Tema del sistema</string>
+    
+    <!-- Search -->
+    <string name="search_hint">Buscar películas, actores, directores…</string>
+    <string name="no_results">No se encontraron resultados</string>
+    <string name="advanced_filters">Filtros avanzados</string>
+    <string name="year_range">Rango de años</string>
+    <string name="rating_range">Valoración mínima</string>
+    <string name="apply_filters">Aplicar filtros</string>
+    <string name="clear_filters">Limpiar filtros</string>
+    
+    <!-- Dialogs -->
+    <string name="dialog_delete_title">Confirmar eliminación</string>
+    <string name="dialog_delete_message">¿Está seguro que desea eliminar esto? Esta acción no se puede deshacer.</string>
+    <string name="dialog_logout_title">Cerrar sesión</string>
+    <string name="dialog_logout_message">¿Está seguro que desea cerrar sesión?</string>
+    <string name="dialog_rate_title">Valorar película</string>
+    <string name="dialog_rate_comment">Comentario (opcional)</string>
+    <string name="dialog_error_title">Ha ocurrido un error</string>
+    
+    <!-- Notificaciones -->
+    <string name="channel_calls_name">Llamadas</string>
+    <string name="channel_calls_description">Notificaciones de llamadas entrantes</string>
+    <string name="channel_sms_name">Mensajes SMS</string>
+    <string name="channel_sms_description">Notificaciones de mensajes SMS entrantes</string>
+    <string name="channel_general_name">General</string>
+    <string name="channel_general_description">Notificaciones generales de la aplicación</string>
+    <string name="incoming_call">Llamada entrante</string>
+    <string name="settings_saved">Configuración guardada</string>
+    <string name="no_changes">No se han realizado cambios</string>
+</resources>

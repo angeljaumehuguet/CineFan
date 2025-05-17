@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colores primarios -->
+    <color name="colorPrimary">#FF5252</color>
+    <color name="colorPrimaryDark">#D32F2F</color>
+    <color name="colorAccent">#FF5252</color>
+    
+    <!-- Colores secundarios -->
+    <color name="colorSecondary">#455A64</color>
+    <color name="colorSecondaryDark">#263238</color>
+    <color name="colorSecondaryLight">#607D8B</color>
+    
+    <!-- Colores base -->
+    <color name="colorBackground">#FAFAFA</color>
+    <color name="colorBackgroundDark">#121212</color>
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorSurfaceDark">#1E1E1E</color>
+    
+    <!-- Colores de texto -->
+    <color name="colorTextPrimary">#212121</color>
+    <color name="colorTextSecondary">#757575</color>
+    <color name="colorTextHint">#9E9E9E</color>
+    <color name="colorTextPrimaryDark">#FFFFFF</color>
+    <color name="colorTextSecondaryDark">#B0B0B0</color>
+    
+    <!-- Colores de estado -->
+    <color name="colorSuccess">#4CAF50</color>
+    <color name="colorError">#F44336</color>
+    <color name="colorWarning">#FF9800</color>
+    <color name="colorInfo">#2196F3</color>
+    
+    <!-- Colores específicos de la aplicación -->
+    <color name="colorRating">#FFC107</color>
+    <color name="colorFavorite">#FF5252</color>
+    <color name="colorWatchlist">#4CAF50</color>
+    <color name="colorButtonPrimary">#FF5252</color>
+    <color name="colorButtonSecondary">#455A64</color>
+    <color name="colorDialogBackground">#FFFFFF</color>
+    <color name="colorDialogBackgroundDark">#282828</color>
+    
+    <!-- Colores estandar de Android -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00000000</color>
+    
+    <!-- Colores oscuros/claros -->
+    <color name="colorDivider">#E0E0E0</color>
+    <color name="colorDividerDark">#3A3A3A</color>
+    <color name="colorRipple">#33000000</color>
+    <color name="colorRippleDark">#33FFFFFF</color>
+</resources>

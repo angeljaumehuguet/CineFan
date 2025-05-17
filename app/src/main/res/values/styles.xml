@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Estilo base para Widget.CineFan -->
+    <style name="Widget.CineFan" parent="@android:style/Widget">
+        <!-- Base vacía de la que heredan otros estilos -->
+    </style>
+    
+    <!-- Estilos de texto -->
+    <style name="TextAppearance.CineFan.Title" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/colorTextPrimary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="TextAppearance.CineFan.Subtitle" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/colorTextSecondary</item>
+    </style>
+    
+    <style name="TextAppearance.CineFan.Body" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorTextPrimary</item>
+    </style>
+    
+    <style name="TextAppearance.CineFan.Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorTextSecondary</item>
+    </style>
+    
+    <!-- Estilos de botones -->
+    <style name="Widget.CineFan.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingStart">24dp</item>
+        <item name="android:paddingEnd">24dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+    
+    <style name="Widget.CineFan.Button.Primary">
+        <item name="backgroundTint">@color/colorButtonPrimary</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    
+    <style name="Widget.CineFan.Button.Secondary">
+        <item name="backgroundTint">@color/colorButtonSecondary</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    
+    <style name="Widget.CineFan.Button.Outlined" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingStart">24dp</item>
+        <item name="android:paddingEnd">24dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="strokeColor">@color/colorButtonPrimary</item>
+        <item name="android:textColor">@color/colorButtonPrimary</item>
+    </style>
+    
+    <!-- Estilos de tarjeta -->
+    <style name="Widget.CineFan.CardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">8dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="contentPadding">16dp</item>
+        <item name="cardBackgroundColor">@color/colorSurface</item>
+    </style>
+    
+    <!-- Estilos de campos de texto -->
+    <style name="Widget.CineFan.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusBottomEnd">4dp</item>
+        <item name="boxCornerRadiusBottomStart">4dp</item>
+        <item name="boxCornerRadiusTopEnd">4dp</item>
+        <item name="boxCornerRadiusTopStart">4dp</item>
+        <item name="boxStrokeColor">@color/colorPrimary</item>
+        <item name="hintTextColor">@color/colorTextSecondary</item>
+    </style>
+    
+    <style name="Widget.CineFan.TextInputEditText" parent="Widget.MaterialComponents.TextInputEditText.OutlinedBox">
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+    
+    <!-- Estilos específicos de la aplicación -->
+    <style name="Widget.CineFan.ToolbarTitle" parent="TextAppearance.CineFan.Title">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    
+    <style name="Widget.CineFan.RatingBar" parent="Widget.AppCompat.RatingBar.Small">
+        <item name="colorControlNormal">@color/colorTextHint</item>
+        <item name="colorControlActivated">@color/colorRating</item>
+    </style>
+    
+    <style name="Widget.CineFan.Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/colorDivider</item>
+    </style>
+</resources>

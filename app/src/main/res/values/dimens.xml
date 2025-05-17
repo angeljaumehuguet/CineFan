@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Márgenes y rellenos -->
+    <dimen name="margin_micro">2dp</dimen>
+    <dimen name="margin_tiny">4dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_large">24dp</dimen>
+    <dimen name="margin_xlarge">32dp</dimen>
+    <dimen name="margin_xxlarge">48dp</dimen>
+    
+    <!-- Radios y bordes -->
+    <dimen name="corner_radius_small">4dp</dimen>
+    <dimen name="corner_radius_medium">8dp</dimen>
+    <dimen name="corner_radius_large">16dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+    <dimen name="card_elevation_large">8dp</dimen>
+    <dimen name="divider_height">1dp</dimen>
+    
+    <!-- Tamaños de texto -->
+    <dimen name="text_size_micro">12sp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_medium">16sp</dimen>
+    <dimen name="text_size_large">18sp</dimen>
+    <dimen name="text_size_xlarge">20sp</dimen>
+    <dimen name="text_size_xxlarge">24sp</dimen>
+    <dimen name="text_size_huge">32sp</dimen>
+    
+    <!-- Elementos de interfaz -->
+    <dimen name="button_height">48dp</dimen>
+    <dimen name="button_height_large">56dp</dimen>
+    <dimen name="toolbar_height">56dp</dimen>
+    <dimen name="bottom_navigation_height">56dp</dimen>
+    
+    <!-- Elementos específicos de la aplicación -->
+    <dimen name="poster_height">220dp</dimen>
+    <dimen name="poster_width">150dp</dimen>
+    <dimen name="poster_grid_height">240dp</dimen>
+    <dimen name="backdrop_height">200dp</dimen>
+    <dimen name="profile_image_size">120dp</dimen>
+    <dimen name="profile_image_small">64dp</dimen>
+    <dimen name="logo_size">150dp</dimen>
+    <dimen name="logo_small">120dp</dimen>
+</resources>

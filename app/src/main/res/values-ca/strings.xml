@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Nombre de la aplicación -->
+    <string name="app_name">CineFan</string>
+    
+    <!-- Textos generales -->
+    <string name="loading">Carregant…</string>
+    <string name="cancel">Cancel·lar</string>
+    <string name="accept">Acceptar</string>
+    <string name="retry">Tornar a intentar</string>
+    <string name="ok">D\'acord</string>
+    <string name="save">Desar</string>
+    <string name="delete">Eliminar</string>
+    <string name="edit">Editar</string>
+    <string name="search">Cercar</string>
+    <string name="share">Compartir</string>
+    <string name="press_back_again_to_exit">Prem Enrere de nou per a sortir</string>
+    
+    <!-- Mensajes de error -->
+    <string name="error_network">Error de connexió. Comprova la teva connexió a internet.</string>
+    <string name="error_timeout">La petició ha tardat massa temps. Intenta-ho de nou.</string>
+    <string name="error_server">Error del servidor. Intenta-ho més tard.</string>
+    <string name="error_auth">Error d\'autenticació. Inicia sessió de nou.</string>
+    <string name="error_unknown">Ha ocorregut un error inesperat.</string>
+    <string name="error_no_internet">Sense connexió a internet</string>
+    
+    <!-- Login y Registro -->
+    <string name="login">Iniciar Sessió</string>
+    <string name="register">Registrar-se</string>
+    <string name="username">Nom d\'usuari</string>
+    <string name="email">Correu electrònic</string>
+    <string name="password">Contrasenya</string>
+    <string name="confirm_password">Confirmar contrasenya</string>
+    <string name="full_name">Nom complet</string>
+    <string name="forgot_password">Has oblidat la teva contrasenya?</string>
+    <string name="has_account">Ja tens compte? Inicia sessió</string>
+    <string name="no_account">No tens compte? Registra\'t</string>
+    
+    <!-- Errores de formularios -->
+    <string name="error_empty_username">Introdueix un nom d\'usuari</string>
+    <string name="error_empty_email">Introdueix un correu electrònic</string>
+    <string name="error_invalid_email">El correu electrònic no és vàlid</string>
+    <string name="error_empty_password">Introdueix una contrasenya</string>
+    <string name="error_empty_fullname">Introdueix el teu nom complet</string>
+    <string name="error_password_mismatch">Les contrasenyes no coincideixen</string>
+    <string name="error_password_requirements">La contrasenya ha de tenir almenys 8 caràcters, una majúscula, una minúscula, un número i un caràcter especial</string>
+    
+    <!-- Menú principal -->
+    <string name="home">Inici</string>
+    <string name="movies">Pel·lícules</string>
+    <string name="lists">Llistes</string>
+    <string name="profile">Perfil</string>
+    <string name="settings">Configuració</string>
+    <string name="logout">Tancar sessió</string>
+    
+    <!-- Pantalla de inicio -->
+    <string name="welcome">Benvingut a CineFan</string>
+    <string name="welcome_user">Benvingut, %1$s</string>
+    <string name="app_description">La teva aplicació per a descobrir, valorar i gestionar pel·lícules</string>
+    <string name="title_new_movies">Novetats</string>
+    <string name="title_recommended">Recomanades per a tu</string>
+    <string name="title_popular">Populars</string>
+    <string name="see_all">Veure tot</string>
+    
+    <!-- Películas -->
+    <string name="add_movie">Afegir pel·lícula</string>
+    <string name="movie_details">Detalls de la pel·lícula</string>
+    <string name="director">Director</string>
+    <string name="year">Any</string>
+    <string name="genre">Gènere</string>
+    <string name="duration">Durada</string>
+    <string name="rating">Valoració</string>
+    <string name="synopsis">Sinopsi</string>
+    <string name="add_to_list">Afegir a la llista</string>
+    <string name="favorite">Favorit</string>
+    <string name="rate">Valorar</string>
+    <string name="trailer">Veure tràiler</string>
+    <string name="similar_movies">Pel·lícules similars</string>
+    <string name="minutes">min</string>
+    
+    <!-- Formulario de película -->
+    <string name="title">Títol</string>
+    <string name="poster">Pòster</string>
+    <string name="trailer_url">URL del tràiler</string>
+    <string name="create_movie">Crear pel·lícula</string>
+    <string name="update_movie">Actualitzar pel·lícula</string>
+    
+    <!-- Listas -->
+    <string name="add_list">Crear llista</string>
+    <string name="list_details">Detalls de la llista</string>
+    <string name="list_name">Nom de la llista</string>
+    <string name="list_description">Descripció</string>
+    <string name="is_public">Llista pública</string>
+    <string name="created_on">Creada el</string>
+    <string name="edit_list">Editar llista</string>
+    <string name="delete_list">Eliminar llista</string>
+    <string name="remove_from_list">Treure de la llista</string>
+    <string name="movies_count">%1$d pel·lícules</string>
+    <string name="empty_list">Aquesta llista està buida</string>
+    <string name="empty_lists">Encara no has creat cap llista</string>
+    
+    <!-- Perfil -->
+    <string name="edit_profile">Editar perfil</string>
+    <string name="change_password">Canviar contrasenya</string>
+    <string name="old_password">Contrasenya actual</string>
+    <string name="new_password">Nova contrasenya</string>
+    <string name="account_settings">Configuració del compte</string>
+    <string name="member_since">Membre des de</string>
+    <string name="save_changes">Desar canvis</string>
+    
+    <!-- Configuración -->
+    <string name="language">Idioma</string>
+    <string name="theme">Tema</string>
+    <string name="notifications">Notificacions</string>
+    <string name="about">Sobre</string>
+    <string name="version">Versió</string>
+    <string name="terms">Termes i condicions</string>
+    <string name="privacy">Política de privacitat</string>
+    <string name="light_theme">Tema clar</string>
+    <string name="dark_theme">Tema fosc</string>
+    <string name="system_theme">Tema del sistema</string>
+    
+    <!-- Búsqueda -->
+    <string name="search_hint">Cercar pel·lícules, actors, directors…</string>
+    <string name="no_results">No s\'han trobat resultats</string>
+    <string name="advanced_filters">Filtres avançats</string>
+    <string name="year_range">Rang d\'anys</string>
+    <string name="rating_range">Valoració mínima</string>
+    <string name="apply_filters">Aplicar filtres</string>
+    <string name="clear_filters">Netejar filtres</string>
+    
+    <!-- Diálogos -->
+    <string name="dialog_delete_title">Confirmar eliminació</string>
+    <string name="dialog_delete_message">Estàs segur que vols eliminar això? Aquesta acció no es pot desfer.</string>
+    <string name="dialog_logout_title">Tancar sessió</string>
+    <string name="dialog_logout_message">Estàs segur que vols tancar la sessió?</string>
+    <string name="dialog_rate_title">Valorar pel·lícula</string>
+    <string name="dialog_rate_comment">Comentari (opcional)</string>
+    <string name="dialog_error_title">Ha ocorregut un error</string>
+</resources>
