@@ -1,3 +1,0 @@
-com.example.cinefan.test
-style WhiteBackgroundDialogTheme
-style WhiteBackgroundTheme

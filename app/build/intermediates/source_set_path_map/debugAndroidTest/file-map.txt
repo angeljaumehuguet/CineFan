@@ -1,6 +1,0 @@
-com.example.cinefan.test.app-annotation-experimental-1.4.0-0 C:\Users\angel\.gradle\caches\8.11.1\transforms\432f70569d897c47d1a9925c1fd2ebea\transformed\annotation-experimental-1.4.0\res
-com.example.cinefan.test.app-core-1.5.0-1 C:\Users\angel\.gradle\caches\8.11.1\transforms\d1449b39b029a3bd30590c4fbc5b071e\transformed\core-1.5.0\res
-com.example.cinefan.test.app-androidTest-2 C:\Users\angel\AndroidStudioProjects\CineFan\app\build\generated\res\resValues\androidTest\debug
-com.example.cinefan.test.app-mergeDebugAndroidTestResources-3 C:\Users\angel\AndroidStudioProjects\CineFan\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
-com.example.cinefan.test.app-mergeDebugAndroidTestResources-4 C:\Users\angel\AndroidStudioProjects\CineFan\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
-com.example.cinefan.test.app-merged_res-5 C:\Users\angel\AndroidStudioProjects\CineFan\app\build\intermediates\merged_res\debugAndroidTest

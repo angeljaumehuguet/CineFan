@@ -52,8 +52,10 @@ color gradient_center
 color gradient_end
 color gradient_start
 color info_background
+color info_color
 color primary_color
 color primary_dark_color
+color ripple_primary
 color selector_bottom_nav
 color selector_color_active
 color selector_color_inactive
@@ -64,6 +66,7 @@ color text_color_secondary
 color text_white
 color transparent
 color warning_background
+color warning_color
 color white
 drawable bg_chip_genero
 drawable bg_circle
@@ -753,6 +756,7 @@ style CineFanText.Subtitle
 style CineFanText.Title
 style CineFanToolbar.Violeta
 style SplashTheme
+style TabTextAppearance
 xml backup_rules
 xml data_extraction_rules
 xml file_paths

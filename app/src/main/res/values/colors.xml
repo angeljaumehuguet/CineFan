@@ -94,4 +94,7 @@
     <color name="gradient_center">#784bb5</color>           <!-- Violeta medio -->
     <color name="gradient_end">#301d47</color>              <!-- Violeta oscuro -->
 
+    <color name="info_color">@color/cinefan_info</color>
+    <color name="warning_color">@color/cinefan_warning</color>
+    <color name="ripple_primary">@color/cinefan_ripple</color>
 </resources>

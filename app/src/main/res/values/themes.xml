@@ -196,4 +196,8 @@
         <item name="android:textColor">@color/cinefan_text_hint</item>
     </style>
 
+    <style name="TabTextAppearance" parent="TextAppearance.Material3.LabelLarge">
+        <item name="android:textColor">@color/cinefan_text_secondary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
 </resources>

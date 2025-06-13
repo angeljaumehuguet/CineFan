@@ -89,13 +89,15 @@
                     android:layout_marginBottom="16dp"
                     style="@style/Widget.Material3.TextInputLayout.OutlinedBox">
 
+                    <!-- Campo usuario -->
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/edit_usuario"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:inputType="textEmailAddress"
                         android:maxLines="1"
-                        android:textSize="16sp" />
+                        android:textSize="16sp"
+                        android:textColor="@color/cinefan_background_light" />
 
                 </com.google.android.material.textfield.TextInputLayout>
 
@@ -111,13 +113,15 @@
                     android:layout_marginBottom="24dp"
                     style="@style/Widget.Material3.TextInputLayout.OutlinedBox">
 
+                    <!-- Campo contraseña -->
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/edit_password"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:inputType="textPassword"
                         android:maxLines="1"
-                        android:textSize="16sp" />
+                        android:textSize="16sp"
+                        android:textColor="@color/cinefan_background_light" />
 
                 </com.google.android.material.textfield.TextInputLayout>
 

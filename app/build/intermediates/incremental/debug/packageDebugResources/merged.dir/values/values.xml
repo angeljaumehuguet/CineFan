@@ -52,8 +52,10 @@
     <color name="gradient_end">#301d47</color>
     <color name="gradient_start">#a768fc</color>
     <color name="info_background">#1Abb80fe</color>
+    <color name="info_color">@color/cinefan_info</color>
     <color name="primary_color">@color/cinefan_primary</color>
     <color name="primary_dark_color">@color/cinefan_primary_dark</color>
+    <color name="ripple_primary">@color/cinefan_ripple</color>
     <color name="selector_color_active">@color/cinefan_primary</color>
     <color name="selector_color_inactive">@color/cinefan_text_hint</color>
     <color name="success_background">#1A4CAF50</color>
@@ -63,6 +65,7 @@
     <color name="text_white">@color/cinefan_text_primary</color>
     <color name="transparent">#00000000</color>
     <color name="warning_background">#1AFF9800</color>
+    <color name="warning_color">@color/cinefan_warning</color>
     <color name="white">#FFFFFF</color>
     <string name="abrir_navegacion">Abrir en navegación</string>
     <string name="acceso_rapido">Acceso rápido</string>
@@ -676,5 +679,9 @@
         <item name="android:windowActionBar">false</item>
         <item name="android:windowFullscreen">true</item>
         <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="TabTextAppearance" parent="TextAppearance.Material3.LabelLarge">
+        <item name="android:textColor">@color/cinefan_text_secondary</item>
+        <item name="android:textStyle">bold</item>
     </style>
 </resources>
