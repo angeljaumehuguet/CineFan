@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.cinefan.app-mergeDebugResources-35:/values-v27/values-v27.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\angel\\AndroidStudioProjects\\CineFan\\app\\src\\main\\res\\values-v27\\themes.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "106",
+                        "endLines": "47",
+                        "endColumns": "12",
+                        "endOffsets": "2770"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "46",
+                        "endColumns": "12",
+                        "endOffsets": "2675"
+                    }
+                }
+            ]
+        }
+    ]
+}

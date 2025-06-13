@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/cinefan_primary</item>
+        <item name="colorPrimaryVariant">@color/cinefan_primary_dark</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorPrimaryContainer">@color/cinefan_primary_light</item>
+        <item name="colorOnPrimaryContainer">@color/cinefan_background</item>
+
+        <item name="colorSecondary">@color/cinefan_secondary</item>
+        <item name="colorSecondaryVariant">@color/cinefan_secondary_dark</item>
+        <item name="colorOnSecondary">@color/cinefan_background</item>
+        <item name="colorSecondaryContainer">@color/cinefan_secondary_light</item>
+        <item name="colorOnSecondaryContainer">@color/cinefan_background</item>
+
+        <item name="android:colorBackground">@color/cinefan_background</item>
+        <item name="colorSurface">@color/cinefan_surface</item>
+        <item name="colorOnBackground">@color/cinefan_text_primary</item>
+        <item name="colorOnSurface">@color/cinefan_text_primary</item>
+        <item name="colorSurfaceVariant">@color/cinefan_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/cinefan_text_secondary</item>
+
+        <item name="colorError">@color/cinefan_error</item>
+        <item name="colorOnError">@android:color/white</item>
+        <item name="colorErrorContainer">@color/error_background</item>
+        <item name="colorOnErrorContainer">@color/cinefan_error</item>
+
+        <item name="colorOutline">@color/cinefan_outline</item>
+        <item name="colorOutlineVariant">@color/cinefan_divider</item>
+
+        <item name="android:statusBarColor">@color/cinefan_background</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">@color/cinefan_background</item>
+        <item name="android:windowLightNavigationBar">false</item>
+
+        <item name="android:windowBackground">@drawable/gradient_background_main</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowActivityTransitions">true</item>
+
+        <item name="materialButtonStyle">@style/CineFanButton.Violeta</item>
+        <item name="textInputStyle">@style/CineFanTextInput.Violeta</item>
+        <item name="cardViewStyle">@style/CineFanCard.Violeta</item>
+        <item name="materialCardViewStyle">@style/CineFanCard.Violeta</item>
+
+        <item name="toolbarStyle">@style/CineFanToolbar.Violeta</item>
+        <item name="actionBarStyle">@style/CineFanActionBar.Violeta</item>
+    </style>
+</resources>

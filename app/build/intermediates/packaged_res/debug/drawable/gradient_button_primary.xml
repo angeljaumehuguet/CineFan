@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Estado pressed -->
+    <item android:state_pressed="true">
+        <shape>
+            <gradient
+                android:type="linear"
+                android:angle="90"
+                android:startColor="#784bb5"
+                android:endColor="#55347f" />
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+
+    <!-- Estado focused -->
+    <item android:state_focused="true">
+        <shape>
+            <gradient
+                android:type="linear"
+                android:angle="90"
+                android:startColor="#bb80fe"
+                android:endColor="#a768fc" />
+            <corners android:radius="8dp" />
+            <stroke
+                android:width="2dp"
+                android:color="#FFD700" />
+        </shape>
+    </item>
+
+    <!-- Estado normal -->
+    <item>
+        <shape>
+            <gradient
+                android:type="linear"
+                android:angle="90"
+                android:startColor="#a768fc"
+                android:endColor="#784bb5" />
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+
+</selector>
