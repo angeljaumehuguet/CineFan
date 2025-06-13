@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a1fe31a-487d-4d00-848e-d8d23182b2e7" name="Changes" comment="" />
+    <list default="true" id="6a1fe31a-487d-4d00-848e-d8d23182b2e7" name="Changes" comment="FUNCIONANDO LO UTIL" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +19,15 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/angeljaumehuguet/CineFan.git",
+    "accountId": "60dd2881-aa4d-4977-8314-d8faba2e35c0"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -36,6 +45,7 @@
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/angel/AndroidStudioProjects/CineFan",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
@@ -124,11 +134,38 @@
       <option name="presentableId" value="Default" />
       <updated>1749785127970</updated>
     </task>
+    <task id="LOCAL-00001" summary="FUNCIONANDO LO UTIL">
+      <option name="closed" value="true" />
+      <created>1749787530681</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1749787530681</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+    <MESSAGE value="FUNCIONANDO LO UTIL" />
+    <option name="LAST_COMMIT_MESSAGE" value="FUNCIONANDO LO UTIL" />
+  </component>
+  <component name="play_dynamic_filters_status">
+    <option name="appIdToCheckInfo">
+      <map>
+        <entry key="com.example.cinefan">
+          <value>
+            <CheckInfo lastCheckTimestamp="1749787238926" />
+          </value>
+        </entry>
+        <entry key="com.example.cinefan.test">
+          <value>
+            <CheckInfo lastCheckTimestamp="1749787238925" />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
