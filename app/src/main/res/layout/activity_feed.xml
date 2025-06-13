@@ -7,7 +7,7 @@
     android:background="@color/cinefan_background"
     tools:context=".actividades.FeedActivity">
 
-    <!-- app bar layout -->
+    <!-- app bar layout - ÚNICO BANNER -->
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -35,8 +35,7 @@
         <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
             android:id="@+id/swipe_refresh"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:enabled="true">
+            android:layout_height="match_parent">
 
             <!-- recycler view para las resenas -->
             <androidx.recyclerview.widget.RecyclerView
@@ -45,7 +44,8 @@
                 android:layout_height="match_parent"
                 android:clipToPadding="false"
                 android:paddingTop="8dp"
-                android:paddingBottom="88dp"
+                android:paddingBottom="16dp"
+                android:paddingHorizontal="8dp"
                 android:scrollbars="vertical"
                 tools:listitem="@layout/item_resena" />
 
@@ -66,15 +66,14 @@
                 android:layout_width="120dp"
                 android:layout_height="120dp"
                 android:src="@drawable/ic_empty_feed"
-                android:contentDescription="@string/sin_resenas"
+                android:contentDescription="@string/mensaje_feed_vacio"
                 app:tint="@color/cinefan_text_disabled"
                 android:layout_marginBottom="16dp" />
 
             <TextView
-                android:id="@+id/txt_sin_resenas"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/no_hay_resenas_feed"
+                android:text="@string/mensaje_feed_vacio"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:textColor="@color/cinefan_text_secondary"
@@ -84,17 +83,18 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/mensaje_feed_vacio"
+                android:text="@string/no_hay_resenas_feed"
                 android:textSize="14sp"
                 android:textColor="@color/cinefan_text_disabled"
                 android:gravity="center"
                 android:layout_marginBottom="16dp" />
 
             <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_escribir_primera"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/escribir_primera_resena"
-                app:icon="@drawable/ic_add"
+                app:icon="@drawable/ic_add_review"
                 app:cornerRadius="20dp"
                 app:backgroundTint="@color/cinefan_primary"
                 android:textColor="@android:color/white"

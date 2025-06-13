@@ -7,7 +7,7 @@
     android:background="@color/cinefan_background"
     tools:context=".actividades.GestionActivity">
 
-    <!-- app bar layout con tabs -->
+    <!-- app bar layout con tabs - ÚNICO BANNER -->
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -91,23 +91,16 @@
                 android:textSize="20sp"
                 android:textStyle="bold"
                 android:textColor="@color/cinefan_primary"
-                tools:text="12" />
+                tools:text="15" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/peliculas"
+                android:text="@string/tab_mis_peliculas"
                 android:textSize="12sp"
                 android:textColor="@color/cinefan_text_secondary" />
 
         </LinearLayout>
-
-        <!-- separador -->
-        <View
-            android:layout_width="1dp"
-            android:layout_height="match_parent"
-            android:background="@color/cinefan_divider"
-            android:layout_marginHorizontal="16dp" />
 
         <!-- total resenas -->
         <LinearLayout
@@ -125,46 +118,12 @@
                 android:textSize="20sp"
                 android:textStyle="bold"
                 android:textColor="@color/cinefan_secondary"
-                tools:text="8" />
+                tools:text="42" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/resenas"
-                android:textSize="12sp"
-                android:textColor="@color/cinefan_text_secondary" />
-
-        </LinearLayout>
-
-        <!-- separador -->
-        <View
-            android:layout_width="1dp"
-            android:layout_height="match_parent"
-            android:background="@color/cinefan_divider"
-            android:layout_marginHorizontal="16dp" />
-
-        <!-- puntuacion promedio -->
-        <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:orientation="vertical"
-            android:gravity="center">
-
-            <TextView
-                android:id="@+id/txt_puntuacion_promedio"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="0.0"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                android:textColor="@color/cinefan_accent"
-                tools:text="4.2" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/promedio"
+                android:text="@string/tab_mis_resenas"
                 android:textSize="12sp"
                 android:textColor="@color/cinefan_text_secondary" />
 

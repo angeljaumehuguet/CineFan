@@ -119,7 +119,7 @@ public class MisPeliculasFragment extends Fragment implements AdaptadorPeliculas
         recyclerView.setLayoutManager(layoutManager);
 
         // crear y configurar adaptador - CORREGIDO
-        adaptador = new AdaptadorPeliculas(getContext(), listaPeliculas, this);
+        adaptador = new AdaptadorPeliculas(getContext(), listaPeliculas, this, true);
         recyclerView.setAdapter(adaptador);
     }
 
