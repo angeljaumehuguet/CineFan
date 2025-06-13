@@ -1,5 +1,6 @@
 package com.example.cinefan.fragmentos;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -309,19 +310,16 @@ public class MisResenasFragment extends Fragment implements AdaptadorResenas.OnR
 
     // eliminar resena de la api
     private void eliminarResena(Resena resena, int posicion) {
-        JSONObject jsonBody = new JSONObject();
-        try {
-            jsonBody.put("id", resena.getId());
-        } catch (JSONException e) {
-            Log.e(Constantes.TAG_API, "Error creando JSON: " + e.getMessage());
-            return;
-        }
+        // Usar ID en URL igual que las películas
+        String url = Constantes.URL_BASE_API + Constantes.ENDPOINT_RESENAS_ELIMINAR + "?id=" + resena.getId();
 
-        String url = Constantes.URL_BASE_API + Constantes.ENDPOINT_RESENAS_ELIMINAR;
+        Log.d(Constantes.TAG_API, "Eliminando reseña ID: " + resena.getId());
+        Log.d(Constantes.TAG_API, "URL completa: " + url);
+
         JsonObjectRequest peticion = new JsonObjectRequest(
                 Request.Method.DELETE,
                 url,
-                jsonBody,
+                null, // Sin JSON body, ID va en URL como parámetro GET
                 new Response.Listener<JSONObject>() {
                     @Override
                     public void onResponse(JSONObject response) {
@@ -334,11 +332,15 @@ public class MisResenasFragment extends Fragment implements AdaptadorResenas.OnR
                                 adaptador.eliminarResena(posicion);
                                 actualizarVistaVacia();
                                 mostrarMensaje(mensaje);
+
+                                Log.d(Constantes.TAG_API, "Reseña eliminada exitosamente: " + mensaje);
                             } else {
                                 mostrarMensaje(mensaje);
+                                Log.w(Constantes.TAG_API, "Error del servidor: " + mensaje);
                             }
 
                         } catch (JSONException e) {
+                            Log.e(Constantes.TAG_API, "Error procesando respuesta: " + e.getMessage());
                             mostrarMensaje(getString(R.string.error_respuesta_servidor));
                         }
                     }
@@ -347,6 +349,18 @@ public class MisResenasFragment extends Fragment implements AdaptadorResenas.OnR
                     @Override
                     public void onErrorResponse(VolleyError error) {
                         Log.e(Constantes.TAG_API, "Error eliminando resena: " + error.getMessage());
+
+                        // Mostrar error específico si disponible
+                        if (error.networkResponse != null) {
+                            Log.e(Constantes.TAG_API, "Código de error: " + error.networkResponse.statusCode);
+                            try {
+                                String errorBody = new String(error.networkResponse.data, "UTF-8");
+                                Log.e(Constantes.TAG_API, "Error del servidor: " + errorBody);
+                            } catch (Exception e) {
+                                Log.e(Constantes.TAG_API, "No se pudo leer el error del servidor");
+                            }
+                        }
+
                         mostrarMensaje(getString(R.string.error_conexion));
                     }
                 }
@@ -433,7 +447,7 @@ public class MisResenasFragment extends Fragment implements AdaptadorResenas.OnR
     private void confirmarEliminarResena(Resena resena) {
         int posicion = buscarPosicionPorId(resena.getId());
 
-        String mensaje = getString(R.string.mensaje_eliminar_resena,
+        @SuppressLint({"StringFormatInvalid", "LocalSuppress"}) String mensaje = getString(R.string.mensaje_eliminar_resena,
                 resena.getPelicula() != null ? resena.getPelicula().getTitulo() : "esta película");
 
         new AlertDialog.Builder(requireContext())

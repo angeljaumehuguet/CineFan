@@ -1,5 +1,6 @@
 package com.example.cinefan.fragmentos;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -277,14 +278,18 @@ public class MisPeliculasFragment extends Fragment implements AdaptadorPeliculas
     }
 
     // eliminar pelicula de la api
+    // eliminar pelicula de la api - MÉTODO CORREGIDO
     private void eliminarPelicula(Pelicula pelicula, int posicion) {
+        //  Usar ID como parámetro GET, no en path
+        String url = Constantes.URL_BASE_API + Constantes.ENDPOINT_PELICULAS_ELIMINAR + "?id=" + pelicula.getId();
 
-        String url = Constantes.URL_BASE_API + Constantes.ENDPOINT_PELICULAS_ELIMINAR + "/" + pelicula.getId();
-        
+        Log.d(Constantes.TAG_API, "Eliminando película ID: " + pelicula.getId());
+        Log.d(Constantes.TAG_API, "URL completa: " + url);
+
         JsonObjectRequest peticion = new JsonObjectRequest(
                 Request.Method.DELETE,
                 url,
-                null,
+                null, // Sin JSON body, ID va como parámetro GET
                 response -> {
                     try {
                         boolean exito = response.getBoolean("exito");
@@ -295,16 +300,32 @@ public class MisPeliculasFragment extends Fragment implements AdaptadorPeliculas
                             adaptador.eliminarPelicula(posicion);
                             actualizarVistaVacia();
                             mostrarMensaje(mensaje);
+
+                            Log.d(Constantes.TAG_API, "Película eliminada exitosamente: " + mensaje);
                         } else {
                             mostrarMensaje(mensaje);
+                            Log.w(Constantes.TAG_API, "Error del servidor: " + mensaje);
                         }
 
                     } catch (JSONException e) {
+                        Log.e(Constantes.TAG_API, "Error procesando respuesta: " + e.getMessage());
                         mostrarMensaje(getString(R.string.error_respuesta_servidor));
                     }
                 },
                 error -> {
                     Log.e(Constantes.TAG_API, "Error eliminando pelicula: " + error.getMessage());
+
+                    //  Mostrar error específico si disponible
+                    if (error.networkResponse != null) {
+                        Log.e(Constantes.TAG_API, "Código de error: " + error.networkResponse.statusCode);
+                        try {
+                            String errorBody = new String(error.networkResponse.data, "UTF-8");
+                            Log.e(Constantes.TAG_API, "Error del servidor: " + errorBody);
+                        } catch (Exception e) {
+                            Log.e(Constantes.TAG_API, "No se pudo leer el error del servidor");
+                        }
+                    }
+
                     mostrarMensaje(getString(R.string.error_conexion));
                 }
         ) {
@@ -335,6 +356,7 @@ public class MisPeliculasFragment extends Fragment implements AdaptadorPeliculas
         }
     }
 
+    @SuppressLint("StringFormatInvalid")
     @Override
     public void onEliminarPeliculaClick(Pelicula pelicula, int posicion) {
         // confirmar eliminacion
