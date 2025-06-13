@@ -122,7 +122,7 @@
                         android:maxLines="1"
                         android:textSize="16sp"
                         android:textColor="@color/cinefan_background_light" />
-                    
+
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <!-- boton de login -->
