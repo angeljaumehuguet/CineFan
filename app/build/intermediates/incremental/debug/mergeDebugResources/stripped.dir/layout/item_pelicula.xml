@@ -48,12 +48,13 @@
                 android:id="@+id/txt_titulo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/titulo_placeholder"
-                android:textSize="18sp"
+                android:text="@string/titulo_pelicula"
+                android:textSize="16sp"
                 android:textStyle="bold"
                 android:textColor="@color/cinefan_text_primary"
                 android:maxLines="2"
                 android:ellipsize="end"
+                android:layout_marginBottom="4dp"
                 tools:text="El Padrino" />
 
             <!-- director y año -->
@@ -61,66 +62,61 @@
                 android:id="@+id/txt_director_ano"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/director_ano_placeholder"
+                android:text="@string/director"
                 android:textSize="14sp"
                 android:textColor="@color/cinefan_text_secondary"
-                android:layout_marginTop="4dp"
                 android:maxLines="1"
                 android:ellipsize="end"
+                android:layout_marginBottom="4dp"
                 tools:text="Francis Ford Coppola • 1972" />
 
             <!-- genero -->
             <TextView
                 android:id="@+id/txt_genero"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/genero_placeholder"
-                android:textSize="13sp"
-                android:textColor="@color/cinefan_text_tertiary"
-                android:layout_marginTop="2dp"
-                android:drawableStart="@drawable/ic_category"
-                android:drawablePadding="6dp"
-                app:drawableTint="@color/cinefan_text_tertiary"
+                android:text="@string/genero"
+                android:textSize="12sp"
+                android:textColor="@color/cinefan_accent"
+                android:background="@drawable/bg_chip_genero"
+                android:padding="6dp"
+                android:layout_marginBottom="8dp"
                 tools:text="Drama" />
 
-            <!-- duracion -->
+            <!-- duración -->
             <TextView
                 android:id="@+id/txt_duracion"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/duracion_placeholder"
-                android:textSize="13sp"
-                android:textColor="@color/cinefan_text_tertiary"
-                android:layout_marginTop="2dp"
-                android:drawableStart="@drawable/ic_timer"
-                android:drawablePadding="6dp"
-                app:drawableTint="@color/cinefan_text_tertiary"
+                android:text="@string/duracion_minutos"
+                android:textSize="12sp"
+                android:textColor="@color/cinefan_text_secondary"
+                android:drawableStart="@drawable/ic_clock"
+                android:drawablePadding="4dp"
+                app:drawableTint="@color/cinefan_text_secondary"
+                android:layout_marginBottom="8dp"
                 tools:text="175 min" />
 
-            <!-- puntuacion y resenas -->
+            <!-- footer con puntuacion y resenas -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_marginTop="8dp"
                 android:gravity="center_vertical">
 
-                <!-- puntuacion promedio -->
+                <!-- puntuacion -->
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
-                    android:gravity="center_vertical"
-                    android:background="@drawable/bg_rating_chip"
-                    android:paddingHorizontal="8dp"
-                    android:paddingVertical="4dp">
+                    android:gravity="center_vertical">
 
                     <TextView
                         android:id="@+id/txt_puntuacion"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/puntuacion_placeholder"
-                        android:textSize="12sp"
+                        android:text="@string/puntuacion"
+                        android:textSize="14sp"
                         android:textStyle="bold"
                         android:textColor="@color/cinefan_accent"
                         android:layout_marginEnd="4dp"
@@ -154,7 +150,7 @@
 
         </LinearLayout>
 
-        <!-- boton de opciones -->
+        <!-- boton de opciones - SOLO EN GESTIÓN DE CONTENIDO -->
         <ImageButton
             android:id="@+id/btn_opciones"
             android:layout_width="40dp"
@@ -163,7 +159,8 @@
             android:background="?attr/selectableItemBackgroundBorderless"
             android:contentDescription="@string/mas_opciones"
             app:tint="@color/cinefan_text_secondary"
-            android:layout_gravity="top" />
+            android:layout_gravity="top"
+            android:visibility="visible" />
 
     </LinearLayout>
 

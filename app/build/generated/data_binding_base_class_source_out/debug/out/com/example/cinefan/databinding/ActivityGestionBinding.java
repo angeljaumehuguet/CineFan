@@ -37,9 +37,6 @@ public final class ActivityGestionBinding implements ViewBinding {
   public final MaterialToolbar toolbar;
 
   @NonNull
-  public final TextView txtPuntuacionPromedio;
-
-  @NonNull
   public final TextView txtTotalPeliculas;
 
   @NonNull
@@ -51,14 +48,13 @@ public final class ActivityGestionBinding implements ViewBinding {
   private ActivityGestionBinding(@NonNull CoordinatorLayout rootView,
       @NonNull FloatingActionButton fabAgregar, @NonNull LinearLayout layoutEstadisticas,
       @NonNull TabLayout tabLayout, @NonNull MaterialToolbar toolbar,
-      @NonNull TextView txtPuntuacionPromedio, @NonNull TextView txtTotalPeliculas,
-      @NonNull TextView txtTotalResenas, @NonNull ViewPager2 viewPager) {
+      @NonNull TextView txtTotalPeliculas, @NonNull TextView txtTotalResenas,
+      @NonNull ViewPager2 viewPager) {
     this.rootView = rootView;
     this.fabAgregar = fabAgregar;
     this.layoutEstadisticas = layoutEstadisticas;
     this.tabLayout = tabLayout;
     this.toolbar = toolbar;
-    this.txtPuntuacionPromedio = txtPuntuacionPromedio;
     this.txtTotalPeliculas = txtTotalPeliculas;
     this.txtTotalResenas = txtTotalResenas;
     this.viewPager = viewPager;
@@ -115,12 +111,6 @@ public final class ActivityGestionBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.txt_puntuacion_promedio;
-      TextView txtPuntuacionPromedio = ViewBindings.findChildViewById(rootView, id);
-      if (txtPuntuacionPromedio == null) {
-        break missingId;
-      }
-
       id = R.id.txt_total_peliculas;
       TextView txtTotalPeliculas = ViewBindings.findChildViewById(rootView, id);
       if (txtTotalPeliculas == null) {
@@ -140,8 +130,7 @@ public final class ActivityGestionBinding implements ViewBinding {
       }
 
       return new ActivityGestionBinding((CoordinatorLayout) rootView, fabAgregar,
-          layoutEstadisticas, tabLayout, toolbar, txtPuntuacionPromedio, txtTotalPeliculas,
-          txtTotalResenas, viewPager);
+          layoutEstadisticas, tabLayout, toolbar, txtTotalPeliculas, txtTotalResenas, viewPager);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

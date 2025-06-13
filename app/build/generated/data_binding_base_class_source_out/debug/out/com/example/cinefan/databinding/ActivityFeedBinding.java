@@ -6,7 +6,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
-import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
@@ -16,6 +15,7 @@ import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.cinefan.R;
 import com.google.android.material.appbar.MaterialToolbar;
+import com.google.android.material.button.MaterialButton;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -24,6 +24,9 @@ import java.lang.String;
 public final class ActivityFeedBinding implements ViewBinding {
   @NonNull
   private final CoordinatorLayout rootView;
+
+  @NonNull
+  public final MaterialButton btnEscribirPrimera;
 
   @NonNull
   public final FloatingActionButton fabAgregar;
@@ -46,15 +49,13 @@ public final class ActivityFeedBinding implements ViewBinding {
   @NonNull
   public final MaterialToolbar toolbar;
 
-  @NonNull
-  public final TextView txtSinResenas;
-
   private ActivityFeedBinding(@NonNull CoordinatorLayout rootView,
-      @NonNull FloatingActionButton fabAgregar, @NonNull LinearLayout layoutCargandoMas,
-      @NonNull LinearLayout layoutSinResenas, @NonNull ProgressBar progressBar,
-      @NonNull RecyclerView recyclerResenas, @NonNull SwipeRefreshLayout swipeRefresh,
-      @NonNull MaterialToolbar toolbar, @NonNull TextView txtSinResenas) {
+      @NonNull MaterialButton btnEscribirPrimera, @NonNull FloatingActionButton fabAgregar,
+      @NonNull LinearLayout layoutCargandoMas, @NonNull LinearLayout layoutSinResenas,
+      @NonNull ProgressBar progressBar, @NonNull RecyclerView recyclerResenas,
+      @NonNull SwipeRefreshLayout swipeRefresh, @NonNull MaterialToolbar toolbar) {
     this.rootView = rootView;
+    this.btnEscribirPrimera = btnEscribirPrimera;
     this.fabAgregar = fabAgregar;
     this.layoutCargandoMas = layoutCargandoMas;
     this.layoutSinResenas = layoutSinResenas;
@@ -62,7 +63,6 @@ public final class ActivityFeedBinding implements ViewBinding {
     this.recyclerResenas = recyclerResenas;
     this.swipeRefresh = swipeRefresh;
     this.toolbar = toolbar;
-    this.txtSinResenas = txtSinResenas;
   }
 
   @Override
@@ -92,6 +92,12 @@ public final class ActivityFeedBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.btn_escribir_primera;
+      MaterialButton btnEscribirPrimera = ViewBindings.findChildViewById(rootView, id);
+      if (btnEscribirPrimera == null) {
+        break missingId;
+      }
+
       id = R.id.fab_agregar;
       FloatingActionButton fabAgregar = ViewBindings.findChildViewById(rootView, id);
       if (fabAgregar == null) {
@@ -134,14 +140,8 @@ public final class ActivityFeedBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.txt_sin_resenas;
-      TextView txtSinResenas = ViewBindings.findChildViewById(rootView, id);
-      if (txtSinResenas == null) {
-        break missingId;
-      }
-
-      return new ActivityFeedBinding((CoordinatorLayout) rootView, fabAgregar, layoutCargandoMas,
-          layoutSinResenas, progressBar, recyclerResenas, swipeRefresh, toolbar, txtSinResenas);
+      return new ActivityFeedBinding((CoordinatorLayout) rootView, btnEscribirPrimera, fabAgregar,
+          layoutCargandoMas, layoutSinResenas, progressBar, recyclerResenas, swipeRefresh, toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

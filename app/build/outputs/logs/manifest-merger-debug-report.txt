@@ -1,20 +1,20 @@
 -- Merging decision tree log ---
 provider#androidx.core.content.FileProvider
-INJECTED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:182:9-190:20
+INJECTED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:183:9-191:20
 	android:grantUriPermissions
-		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:186:13-47
+		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:187:13-47
 	android:authorities
 		INJECTED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:184:13-64
+		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:185:13-64
 	android:exported
-		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:185:13-37
+		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:186:13-37
 	android:name
-		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:183:13-62
+		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:184:13-62
 manifest
-ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:2:1-194:12
-INJECTED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:2:1-194:12
-INJECTED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:2:1-194:12
-INJECTED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:2:1-194:12
+ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:2:1-195:12
+INJECTED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:2:1-195:12
+INJECTED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:2:1-195:12
+INJECTED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:2:1-195:12
 MERGED from [androidx.databinding:viewbinding:8.2.0] C:\Users\angel\.gradle\caches\8.11.1\transforms\07aa2dad9b4e5703f56cb4af86cc72ec\transformed\viewbinding-8.2.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\angel\.gradle\caches\8.11.1\transforms\5eafa179c28f42de26b2b47337ff618f\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\angel\.gradle\caches\8.11.1\transforms\d7259a4a7a3a828b4dd3eda0b1510651\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
@@ -135,8 +135,8 @@ ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidMani
 	android:name
 		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:29:22-78
 application
-ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:32:5-192:19
-INJECTED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:32:5-192:19
+ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:32:5-193:19
+INJECTED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:32:5-193:19
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\angel\.gradle\caches\8.11.1\transforms\5eafa179c28f42de26b2b47337ff618f\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\angel\.gradle\caches\8.11.1\transforms\5eafa179c28f42de26b2b47337ff618f\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\angel\.gradle\caches\8.11.1\transforms\d7259a4a7a3a828b4dd3eda0b1510651\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -176,11 +176,11 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\an
 	android:label
 		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:35:9-41
 	android:roundIcon
-		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:36:9-54
+		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:36:9-51
 	tools:targetApi
 		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:41:9-29
 	android:icon
-		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:34:9-43
+		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:34:9-46
 	android:allowBackup
 		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:33:9-35
 	android:theme
@@ -334,7 +334,7 @@ ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidMani
 	android:name
 		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:130:13-62
 activity#com.example.cinefan.actividades.PerfilActivity
-ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:139:9-145:52
+ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:139:9-146:43
 	android:screenOrientation
 		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:145:13-49
 	android:parentActivityName
@@ -343,60 +343,62 @@ ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidMani
 		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:142:13-51
 	android:exported
 		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:141:13-37
+	tools:ignore
+		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:146:13-40
 	android:theme
 		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:144:13-44
 	android:name
 		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:140:13-55
 service#com.example.cinefan.servicios.ServicioMusica
-ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:150:9-155:43
+ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:151:9-156:43
 	android:enabled
-		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:152:13-35
+		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:153:13-35
 	android:exported
-		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:153:13-37
+		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:154:13-37
 	android:stopWithTask
-		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:155:13-40
+		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:156:13-40
 	android:foregroundServiceType
-		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:154:13-58
+		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:155:13-58
 	android:name
-		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:151:13-53
+		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:152:13-53
 receiver#com.example.cinefan.receptores.ReceptorLlamadas
-ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:160:9-167:20
+ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:161:9-168:20
 	android:enabled
-		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:162:13-35
+		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:163:13-35
 	android:exported
-		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:163:13-36
+		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:164:13-36
 	android:name
-		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:161:13-56
+		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:162:13-56
 intent-filter#action:name:android.intent.action.PHONE_STATE
-ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:164:13-166:29
+ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:165:13-167:29
 	android:priority
-		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:164:28-51
+		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:165:28-51
 action#android.intent.action.PHONE_STATE
-ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:165:17-76
+ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:166:17-76
 	android:name
-		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:165:25-73
+		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:166:25-73
 receiver#com.example.cinefan.receptores.ReceptorSms
-ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:170:9-177:20
+ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:171:9-178:20
 	android:enabled
-		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:172:13-35
+		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:173:13-35
 	android:exported
-		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:173:13-36
+		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:174:13-36
 	android:name
-		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:171:13-51
+		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:172:13-51
 intent-filter#action:name:android.provider.Telephony.SMS_RECEIVED
-ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:174:13-176:29
+ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:175:13-177:29
 	android:priority
-		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:174:28-51
+		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:175:28-51
 action#android.provider.Telephony.SMS_RECEIVED
-ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:175:17-82
+ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:176:17-82
 	android:name
-		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:175:25-79
+		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:176:25-79
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:187:13-189:54
+ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:188:13-190:54
 	android:resource
-		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:189:17-51
+		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:190:17-51
 	android:name
-		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:188:17-67
+		ADDED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml:189:17-67
 uses-sdk
 INJECTED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\angel\AndroidStudioProjects\CineFan\app\src\main\AndroidManifest.xml

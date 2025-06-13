@@ -656,49 +656,34 @@
     <color name="cardview_light_background">#FFFFFFFF</color>
     <color name="cardview_shadow_end_color">#03000000</color>
     <color name="cardview_shadow_start_color">#37000000</color>
-    <color name="cinefan_accent">#FFC107</color>
-    <color name="cinefan_background">#121212</color>
-    <color name="cinefan_background_light">#1E1E1E</color>
-    <color name="cinefan_button_disabled">#424242</color>
-    <color name="cinefan_button_primary">@color/cinefan_primary</color>
-    <color name="cinefan_button_secondary">@color/cinefan_surface</color>
-    <color name="cinefan_divider">#1FFFFFFF</color>
+    <color name="cinefan_accent">#FFD700</color>
+    <color name="cinefan_background">#0c0715</color>
+    <color name="cinefan_background_light">#1a1020</color>
+    <color name="cinefan_divider">#22bb80fe</color>
     <color name="cinefan_error">#F44336</color>
-    <color name="cinefan_info">#2196F3</color>
-    <color name="cinefan_nav_selected">#E50914</color>
-    <color name="cinefan_nav_unselected">#757575</color>
-    <color name="cinefan_overlay">#80000000</color>
-    <color name="cinefan_overlay_light">#40000000</color>
-    <color name="cinefan_primary">#E50914</color>
-    <color name="cinefan_primary_dark">#B71C1C</color>
-    <color name="cinefan_primary_light">#FF5722</color>
-    <color name="cinefan_primary_variant">@color/cinefan_primary_dark</color>
-    <color name="cinefan_ripple">#40E50914</color>
-    <color name="cinefan_secondary">#FFC107</color>
-    <color name="cinefan_secondary_dark">#F57C00</color>
-    <color name="cinefan_secondary_light">#FFF350</color>
-    <color name="cinefan_star_empty">#424242</color>
-    <color name="cinefan_star_filled">#FFC107</color>
-    <color name="cinefan_star_half">#FFE082</color>
+    <color name="cinefan_focused">#44a768fc</color>
+    <color name="cinefan_info">#bb80fe</color>
+    <color name="cinefan_outline">#44784bb5</color>
+    <color name="cinefan_pressed">#55784bb5</color>
+    <color name="cinefan_primary">#a768fc</color>
+    <color name="cinefan_primary_dark">#784bb5</color>
+    <color name="cinefan_primary_light">#bb80fe</color>
+    <color name="cinefan_primary_variant">#55347f</color>
+    <color name="cinefan_ripple">#33bb80fe</color>
+    <color name="cinefan_secondary">#FFD700</color>
+    <color name="cinefan_secondary_dark">#FFA000</color>
+    <color name="cinefan_secondary_light">#FFED4E</color>
+    <color name="cinefan_selected">#88a768fc</color>
     <color name="cinefan_success">#4CAF50</color>
-    <color name="cinefan_surface">#2D2D2D</color>
-    <color name="cinefan_surface_light">#3A3A3A</color>
-    <color name="cinefan_surface_variant">@color/cinefan_surface_light</color>
-    <color name="cinefan_text_disabled">#424242</color>
-    <color name="cinefan_text_hint">#757575</color>
+    <color name="cinefan_surface">#301d47</color>
+    <color name="cinefan_surface_light">#3d2558</color>
+    <color name="cinefan_surface_variant">#2a1b3d</color>
+    <color name="cinefan_text_disabled">#7A6B8A</color>
+    <color name="cinefan_text_hint">#B299CC</color>
     <color name="cinefan_text_primary">#FFFFFF</color>
-    <color name="cinefan_text_secondary">#B3B3B3</color>
-    <color name="cinefan_text_tertiary">@color/cinefan_text_hint</color>
+    <color name="cinefan_text_secondary">#E1D4F0</color>
+    <color name="cinefan_text_tertiary">#9B88B3</color>
     <color name="cinefan_warning">#FF9800</color>
-    <color name="colorAccent">@color/cinefan_accent</color>
-    <color name="colorBackground">@color/cinefan_background</color>
-    <color name="colorOnBackground">@color/cinefan_text_primary</color>
-    <color name="colorOnPrimary">@color/cinefan_text_primary</color>
-    <color name="colorOnSecondary">@color/cinefan_background</color>
-    <color name="colorOnSurface">@color/cinefan_text_primary</color>
-    <color name="colorPrimary">@color/cinefan_primary</color>
-    <color name="colorPrimaryDark">@color/cinefan_primary_dark</color>
-    <color name="colorSurface">@color/cinefan_surface</color>
     <color name="common_google_signin_btn_text_dark_default">@android:color/white</color>
     <color name="common_google_signin_btn_text_dark_disabled">#1F000000</color>
     <color name="common_google_signin_btn_text_dark_focused">@android:color/black</color>
@@ -747,29 +732,32 @@
     <color name="dim_foreground_material_dark">#ffbebebe</color>
     <color name="dim_foreground_material_light">#ff323232</color>
     <color name="error">@color/cinefan_error</color>
-    <color name="error_background">#40F44336</color>
+    <color name="error_background">#1AF44336</color>
     <color name="error_color">#F44336</color>
     <color name="error_color_material_dark">#ff7043</color>
     <color name="error_color_material_light">#ff5722</color>
     <color name="foreground_material_dark">@android:color/white</color>
     <color name="foreground_material_light">@android:color/black</color>
-    <color name="genero_accion">#FF5722</color>
-    <color name="genero_animacion">#FF9800</color>
-    <color name="genero_aventura">#4CAF50</color>
+    <color name="genero_accion">#a768fc</color>
+    <color name="genero_animacion">#FF5722</color>
+    <color name="genero_aventura">#bb80fe</color>
     <color name="genero_ciencia_ficcion">#00BCD4</color>
-    <color name="genero_comedia">#FFEB3B</color>
-    <color name="genero_documental">#607D8B</color>
-    <color name="genero_drama">#9C27B0</color>
+    <color name="genero_comedia">#FFD700</color>
+    <color name="genero_documental">#795548</color>
+    <color name="genero_drama">#784bb5</color>
+    <color name="genero_fantasia">#a768fc</color>
     <color name="genero_guerra">#3F51B5</color>
-    <color name="genero_musical">#673AB7</color>
+    <color name="genero_musical">#9C27B0</color>
     <color name="genero_romance">#E91E63</color>
-    <color name="genero_terror">#212121</color>
-    <color name="genero_thriller">#795548</color>
+    <color name="genero_terror">#55347f</color>
+    <color name="genero_thriller">#301d47</color>
     <color name="genero_western">#8BC34A</color>
+    <color name="gradient_center">#784bb5</color>
+    <color name="gradient_end">#301d47</color>
+    <color name="gradient_start">#a768fc</color>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
-    <color name="info_background">@color/cinefan_surface</color>
-    <color name="info_color">@color/cinefan_info</color>
+    <color name="info_background">#1Abb80fe</color>
     <color name="m3_ref_palette_black">#ff000000</color>
     <color name="m3_ref_palette_error0">#ff000000</color>
     <color name="m3_ref_palette_error10">#ff410e0b</color>
@@ -1021,13 +1009,13 @@
     <color name="primary_text_disabled_material_light">#39000000</color>
     <color name="ripple_material_dark">#33ffffff</color>
     <color name="ripple_material_light">#1f000000</color>
-    <color name="ripple_primary">@color/cinefan_ripple</color>
     <color name="secondary_text_default_material_dark">#b3ffffff</color>
     <color name="secondary_text_default_material_light">#8a000000</color>
     <color name="secondary_text_disabled_material_dark">#36ffffff</color>
     <color name="secondary_text_disabled_material_light">#24000000</color>
     <color name="selector_color_active">@color/cinefan_primary</color>
-    <color name="selector_color_inactive">@color/cinefan_text_secondary</color>
+    <color name="selector_color_inactive">@color/cinefan_text_hint</color>
+    <color name="success_background">#1A4CAF50</color>
     <color name="surface_color">@color/cinefan_surface</color>
     <color name="switch_thumb_disabled_material_dark">#ff616161</color>
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
@@ -1035,12 +1023,11 @@
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
     <color name="text_color_primary">@color/cinefan_text_primary</color>
     <color name="text_color_secondary">@color/cinefan_text_secondary</color>
-    <color name="text_white">@color/white</color>
+    <color name="text_white">@color/cinefan_text_primary</color>
     <color name="tooltip_background_dark">#e6616161</color>
     <color name="tooltip_background_light">#e6FFFFFF</color>
     <color name="transparent">#00000000</color>
-    <color name="warning_background">@color/cinefan_surface</color>
-    <color name="warning_color">@color/cinefan_warning</color>
+    <color name="warning_background">#1AFF9800</color>
     <color name="white">#FFFFFF</color>
     <dimen name="abc_action_bar_content_inset_material">16dp</dimen>
     <dimen name="abc_action_bar_content_inset_with_nav">72dp</dimen>
@@ -2714,36 +2701,54 @@
         <item name="colorPrimary">@color/cinefan_primary</item>
         <item name="colorPrimaryVariant">@color/cinefan_primary_dark</item>
         <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorPrimaryContainer">@color/cinefan_primary_light</item>
+        <item name="colorOnPrimaryContainer">@color/cinefan_background</item>
 
         
         <item name="colorSecondary">@color/cinefan_secondary</item>
         <item name="colorSecondaryVariant">@color/cinefan_secondary_dark</item>
-        <item name="colorOnSecondary">@android:color/white</item>
+        <item name="colorOnSecondary">@color/cinefan_background</item>
+        <item name="colorSecondaryContainer">@color/cinefan_secondary_light</item>
+        <item name="colorOnSecondaryContainer">@color/cinefan_background</item>
 
         
         <item name="android:colorBackground">@color/cinefan_background</item>
         <item name="colorSurface">@color/cinefan_surface</item>
         <item name="colorOnBackground">@color/cinefan_text_primary</item>
         <item name="colorOnSurface">@color/cinefan_text_primary</item>
+        <item name="colorSurfaceVariant">@color/cinefan_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/cinefan_text_secondary</item>
 
         
-        <item name="colorError">@color/error_color</item>
+        <item name="colorError">@color/cinefan_error</item>
         <item name="colorOnError">@android:color/white</item>
+        <item name="colorErrorContainer">@color/error_background</item>
+        <item name="colorOnErrorContainer">@color/cinefan_error</item>
 
         
-        <item name="android:statusBarColor">@color/cinefan_primary</item>
+        <item name="colorOutline">@color/cinefan_outline</item>
+        <item name="colorOutlineVariant">@color/cinefan_divider</item>
+
+        
+        <item name="android:statusBarColor">@color/cinefan_background</item>
         <item name="android:windowLightStatusBar">false</item>
-
-        
         <item name="android:navigationBarColor">@color/cinefan_background</item>
+        <item name="android:windowLightNavigationBar" ns1:targetApi="27">false</item>
 
         
-        <item name="android:windowBackground">@color/cinefan_background</item>
+        <item name="android:windowBackground">@drawable/gradient_background_main</item>
         <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowActivityTransitions">true</item>
 
         
-        <item name="materialButtonStyle">@style/CineFanButton</item>
-        <item name="textInputStyle">@style/CineFanTextInput</item>
+        <item name="materialButtonStyle">@style/CineFanButton.Violeta</item>
+        <item name="textInputStyle">@style/CineFanTextInput.Violeta</item>
+        <item name="cardViewStyle">@style/CineFanCard.Violeta</item>
+        <item name="materialCardViewStyle">@style/CineFanCard.Violeta</item>
+
+        
+        <item name="toolbarStyle">@style/CineFanToolbar.Violeta</item>
+        <item name="actionBarStyle">@style/CineFanActionBar.Violeta</item>
     </style>
     <style name="AppTheme.NoActionBar" parent="AppTheme">
         <item name="windowNoTitle">true</item>
@@ -6135,94 +6140,98 @@
     <style name="CardView.Light">
         <item name="cardBackgroundColor">@color/cardview_light_background</item>
     </style>
-    <style name="CineFanActionBar" parent="Widget.Material3.ActionBar.Solid">
-        <item name="background">@color/cinefan_primary</item>
+    <style name="CineFanActionBar.Violeta" parent="Widget.Material3.ActionBar.Solid">
+        <item name="background">@drawable/gradient_card_background</item>
         <item name="titleTextStyle">@style/CineFanActionBarTitle</item>
         <item name="elevation">4dp</item>
     </style>
     <style name="CineFanActionBarTitle" parent="TextAppearance.Material3.ActionBar.Title">
-        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColor">@color/cinefan_text_primary</item>
         <item name="android:textStyle">bold</item>
     </style>
-    <style name="CineFanBottomNavigation" parent="Widget.Material3.BottomNavigationView">
-        <item name="itemIconTint">@color/selector_bottom_nav</item>
-        <item name="itemTextColor">@color/selector_bottom_nav</item>
-        <item name="android:background">@color/cinefan_surface</item>
-        <item name="elevation">8dp</item>
-    </style>
-    <style name="CineFanButton" parent="Widget.Material3.Button">
-        <item name="android:textStyle">bold</item>
-        <item name="cornerRadius">12dp</item>
-        <item name="android:textAllCaps">false</item>
-    </style>
-    <style name="CineFanButton.Accent">
-        <item name="backgroundTint">@color/cinefan_accent</item>
-        <item name="android:textColor">@android:color/white</item>
-    </style>
-    <style name="CineFanButton.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+    <style name="CineFanButton.Outlined.Violeta" parent="Widget.Material3.Button.OutlinedButton">
         <item name="strokeColor">@color/cinefan_primary</item>
+        <item name="strokeWidth">2dp</item>
         <item name="android:textColor">@color/cinefan_primary</item>
-        <item name="cornerRadius">12dp</item>
-        <item name="android:textAllCaps">false</item>
+        <item name="rippleColor">@color/cinefan_ripple</item>
+        <item name="cornerRadius">8dp</item>
     </style>
-    <style name="CineFanButton.Primary">
-        <item name="backgroundTint">@color/cinefan_primary</item>
+    <style name="CineFanButton.Text.Violeta" parent="Widget.Material3.Button.TextButton">
+        <item name="android:textColor">@color/cinefan_primary</item>
+        <item name="rippleColor">@color/cinefan_ripple</item>
+    </style>
+    <style name="CineFanButton.Violeta" parent="Widget.Material3.Button">
+        <item name="android:background">@drawable/gradient_button_primary</item>
         <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:elevation">4dp</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="rippleColor">@color/cinefan_ripple</item>
+        <item name="cornerRadius">8dp</item>
     </style>
-    <style name="CineFanButton.Secondary">
-        <item name="backgroundTint">@color/cinefan_secondary</item>
-        <item name="android:textColor">@android:color/white</item>
-    </style>
-    <style name="CineFanCard" parent="Widget.Material3.CardView.Elevated">
-        <item name="cardCornerRadius">12dp</item>
-        <item name="cardElevation">4dp</item>
+    <style name="CineFanCard.Violeta" parent="Widget.Material3.CardView.Elevated">
         <item name="cardBackgroundColor">@color/cinefan_surface</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">8dp</item>
+        <item name="strokeColor">@color/cinefan_outline</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="rippleColor">@color/cinefan_ripple</item>
     </style>
-    <style name="CineFanChip" parent="Widget.Material3.Chip.Assist">
-        <item name="chipBackgroundColor">@color/cinefan_primary</item>
-        <item name="android:textColor">@android:color/white</item>
-        <item name="chipCornerRadius">20dp</item>
+    <style name="CineFanCheckBox" parent="Widget.Material3.CompoundButton.CheckBox">
+        <item name="buttonTint">@color/cinefan_primary</item>
     </style>
     <style name="CineFanFAB" parent="Widget.Material3.FloatingActionButton.Primary">
-        <item name="backgroundTint">@color/cinefan_accent</item>
+        <item name="backgroundTint">@color/cinefan_primary</item>
         <item name="tint">@android:color/white</item>
-        <item name="elevation">6dp</item>
+        <item name="rippleColor">@color/cinefan_ripple</item>
+        <item name="elevation">8dp</item>
+        <item name="pressedTranslationZ">12dp</item>
     </style>
-    <style name="CineFanProgressBar" parent="Widget.AppCompat.ProgressBar.Horizontal">
-        <item name="android:progressTint">@color/cinefan_accent</item>
-        <item name="android:progressBackgroundTint">@color/cinefan_text_disabled</item>
-    </style>
-    <style name="CineFanRatingBar" parent="Widget.AppCompat.RatingBar.Small">
-        <item name="android:progressTint">@color/cinefan_accent</item>
-        <item name="android:secondaryProgressTint">@color/cinefan_text_disabled</item>
-        <item name="android:progressBackgroundTint">@color/cinefan_text_disabled</item>
+    <style name="CineFanProgressBar" parent="Widget.Material3.CircularProgressIndicator">
+        <item name="indicatorColor">@color/cinefan_primary</item>
+        <item name="trackColor">@color/cinefan_surface_light</item>
     </style>
     <style name="CineFanSwitch" parent="Widget.Material3.CompoundButton.Switch">
-        <item name="thumbTint">@color/cinefan_accent</item>
-        <item name="trackTint">@color/cinefan_primary</item>
+        <item name="thumbTint">@color/cinefan_primary</item>
+        <item name="trackTint">@color/cinefan_surface_light</item>
     </style>
     <style name="CineFanTabLayout" parent="Widget.Material3.TabLayout">
-        <item name="tabIndicatorColor">@color/cinefan_accent</item>
-        <item name="tabSelectedTextColor">@color/cinefan_accent</item>
-        <item name="tabTextColor">@color/cinefan_text_secondary</item>
+        <item name="tabTextColor">@color/cinefan_text_hint</item>
+        <item name="tabSelectedTextColor">@color/cinefan_text_primary</item>
+        <item name="tabIndicatorColor">@color/cinefan_primary</item>
+        <item name="tabIndicatorHeight">3dp</item>
         <item name="android:background">@color/cinefan_surface</item>
-        <item name="tabTextAppearance">@style/TabTextAppearance</item>
+        <item name="tabRippleColor">@color/cinefan_ripple</item>
     </style>
-    <style name="CineFanTextInput" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+    <style name="CineFanText.Body" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/cinefan_text_primary</item>
+    </style>
+    <style name="CineFanText.Caption" parent="TextAppearance.Material3.BodySmall">
+        <item name="android:textColor">@color/cinefan_text_hint</item>
+    </style>
+    <style name="CineFanText.Subtitle" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textColor">@color/cinefan_text_secondary</item>
+    </style>
+    <style name="CineFanText.Title" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="android:textColor">@color/cinefan_text_primary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="CineFanTextInput.Violeta" parent="Widget.Material3.TextInputLayout.OutlinedBox">
         <item name="boxStrokeColor">@color/cinefan_primary</item>
         <item name="boxStrokeWidth">2dp</item>
-        <item name="hintTextColor">@color/cinefan_text_secondary</item>
-        <item name="android:textColorHint">@color/cinefan_text_secondary</item>
+        <item name="hintTextColor">@color/cinefan_text_hint</item>
+        <item name="android:textColorHint">@color/cinefan_text_hint</item>
+        <item name="boxCornerRadiusTopStart">8dp</item>
+        <item name="boxCornerRadiusTopEnd">8dp</item>
+        <item name="boxCornerRadiusBottomStart">8dp</item>
+        <item name="boxCornerRadiusBottomEnd">8dp</item>
+        <item name="errorTextColor">@color/cinefan_error</item>
     </style>
-    <style name="CineFanToolbar" parent="Widget.Material3.Toolbar">
-        <item name="android:background">@color/cinefan_primary</item>
-        <item name="titleTextColor">@android:color/white</item>
+    <style name="CineFanToolbar.Violeta" parent="Widget.Material3.Toolbar">
+        <item name="android:background">@drawable/gradient_card_background</item>
+        <item name="titleTextColor">@color/cinefan_text_primary</item>
         <item name="subtitleTextColor">@color/cinefan_text_secondary</item>
         <item name="android:elevation">4dp</item>
-    </style>
-    <style name="FullscreenTheme" parent="AppTheme.NoActionBar">
-        <item name="android:windowFullscreen">false</item>
-        <item name="android:fitsSystemWindows">true</item>
     </style>
     <style name="MaterialAlertDialog.Material3" parent="MaterialAlertDialog.MaterialComponents">
     <item name="backgroundTint">@macro/m3_comp_dialog_container_color</item>
@@ -6681,16 +6690,12 @@
     <item name="cornerSizeBottomLeft">@dimen/mtrl_textinput_box_corner_radius_small</item>
     <item name="cornerSizeBottomRight">@dimen/mtrl_textinput_box_corner_radius_small</item>
   </style>
-    <style name="SplashTheme" parent="Theme.Material3.DayNight.NoActionBar">
-        <item name="android:windowBackground">@drawable/splash_background</item>
-        <item name="android:statusBarColor">@color/cinefan_primary</item>
-        <item name="android:windowLightStatusBar">false</item>
+    <style name="SplashTheme" parent="AppTheme.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_background_violeta</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
         <item name="android:windowFullscreen">true</item>
-    </style>
-    <style name="TabTextAppearance" parent="TextAppearance.Material3.TitleSmall">
-        <item name="android:textColor">@color/cinefan_text_secondary</item>
-        <item name="textAllCaps">false</item>
-        <item name="android:textStyle">bold</item>
+        <item name="android:windowContentOverlay">@null</item>
     </style>
     <style name="TextAppearance.AppCompat" parent="Base.TextAppearance.AppCompat"/>
     <style name="TextAppearance.AppCompat.Body1" parent="Base.TextAppearance.AppCompat.Body1"/>

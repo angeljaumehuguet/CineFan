@@ -1,86 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Colores primarios del tema CineFan -->
-    <color name="cinefan_primary">#E50914</color>           <!-- Rojo cinematográfico -->
-    <color name="cinefan_primary_dark">#B71C1C</color>      <!-- Rojo oscuro -->
-    <color name="cinefan_primary_light">#FF5722</color>     <!-- Rojo claro -->
+    <!-- ========================================= -->
+    <!-- PALETA CINEFAN - EDICIÓN VIOLETA PREMIUM -->
+    <!-- ========================================= -->
 
-    <!-- Colores secundarios -->
-    <color name="cinefan_secondary">#FFC107</color>         <!-- Dorado para estrellas -->
-    <color name="cinefan_secondary_dark">#F57C00</color>    <!-- Dorado oscuro -->
-    <color name="cinefan_secondary_light">#FFF350</color>   <!-- Dorado claro -->
+    <!-- Colores primarios basados en tu logo -->
+    <color name="cinefan_primary">#a768fc</color>           <!-- Violet principal (73%) -->
+    <color name="cinefan_primary_dark">#784bb5</color>      <!-- Violet oscuro (7%) -->
+    <color name="cinefan_primary_light">#bb80fe</color>     <!-- Violet claro (9%) -->
+    <color name="cinefan_primary_variant">#55347f</color>   <!-- Violet muy oscuro (5%) -->
 
-    <color name="cinefan_accent">#FFC107</color>            <!-- Accent color - dorado -->
-    <color name="error_color">#F44336</color>               <!-- Color de error - rojo -->
+    <!-- Colores secundarios - Complementarios violeta -->
+    <color name="cinefan_secondary">#FFD700</color>         <!-- Dorado para estrellas (contrasta bien) -->
+    <color name="cinefan_secondary_dark">#FFA000</color>    <!-- Dorado oscuro -->
+    <color name="cinefan_secondary_light">#FFED4E</color>   <!-- Dorado claro -->
+    <color name="cinefan_accent">#FFD700</color>            <!-- Accent color - dorado -->
+
+    <!-- Colores de fondo - Basados en tu logo -->
+    <color name="cinefan_background">#0c0715</color>        <!-- Negro del logo (3.4%) -->
+    <color name="cinefan_background_light">#1a1020</color>  <!-- Variación más clara -->
+    <color name="cinefan_surface">#301d47</color>          <!-- Violet muy oscuro del logo (2.6%) -->
+    <color name="cinefan_surface_light">#3d2558</color>    <!-- Superficie clara -->
+    <color name="cinefan_surface_variant">#2a1b3d</color>  <!-- Variante de superficie -->
+
+    <!-- Colores de texto optimizados para violeta -->
+    <color name="cinefan_text_primary">#FFFFFF</color>      <!-- Texto principal - blanco puro -->
+    <color name="cinefan_text_secondary">#E1D4F0</color>   <!-- Texto secundario - violeta muy claro -->
+    <color name="cinefan_text_hint">#B299CC</color>        <!-- Texto de ayuda - violeta medio -->
+    <color name="cinefan_text_disabled">#7A6B8A</color>    <!-- Texto deshabilitado -->
+    <color name="cinefan_text_tertiary">#9B88B3</color>    <!-- Texto terciario -->
+
+    <!-- Colores de estado -->
+    <color name="cinefan_success">#4CAF50</color>           <!-- Verde éxito -->
+    <color name="cinefan_warning">#FF9800</color>           <!-- Naranja advertencia -->
+    <color name="cinefan_error">#F44336</color>             <!-- Rojo error -->
+    <color name="cinefan_info">#bb80fe</color>              <!-- Violeta claro para info -->
+    <color name="error_color">#F44336</color>               <!-- Color de error -->
     <color name="error">@color/cinefan_error</color>
 
-    <!-- Colores de fondo -->
-    <color name="cinefan_background">#121212</color>        <!-- Negro principal -->
-    <color name="cinefan_background_light">#1E1E1E</color>  <!-- Gris muy oscuro -->
-    <color name="cinefan_surface">#2D2D2D</color>          <!-- Superficie de cards -->
-    <color name="cinefan_surface_light">#3A3A3A</color>    <!-- Superficie clara -->
+    <!-- Colores interactivos -->
+    <color name="cinefan_ripple">#33bb80fe</color>          <!-- Efecto ripple violeta claro -->
+    <color name="cinefan_pressed">#55784bb5</color>         <!-- Estado pressed -->
+    <color name="cinefan_focused">#44a768fc</color>         <!-- Estado focused -->
+    <color name="cinefan_selected">#88a768fc</color>        <!-- Estado selected -->
 
-    <!-- Colores de texto -->
-    <color name="cinefan_text_primary">#FFFFFF</color>      <!-- Texto principal -->
-    <color name="cinefan_text_secondary">#B3B3B3</color>   <!-- Texto secundario -->
-    <color name="cinefan_text_hint">#757575</color>        <!-- Texto de ayuda -->
-    <color name="cinefan_text_disabled">#424242</color>    <!-- Texto deshabilitado -->
+    <!-- Colores de navegación -->
+    <color name="selector_color_active">@color/cinefan_primary</color>
+    <color name="selector_color_inactive">@color/cinefan_text_hint</color>
 
-    <!-- Estados y acciones -->
-    <color name="cinefan_success">#4CAF50</color>          <!-- Verde para éxito -->
-    <color name="cinefan_warning">#FF9800</color>          <!-- Naranja para advertencias -->
-    <color name="cinefan_error">#F44336</color>            <!-- Rojo para errores -->
-    <color name="cinefan_info">#2196F3</color>             <!-- Azul para información -->
+    <!-- Colores para géneros de películas (actualizados) -->
+    <color name="genero_accion">#a768fc</color>             <!-- Violeta principal -->
+    <color name="genero_aventura">#bb80fe</color>           <!-- Violeta claro -->
+    <color name="genero_comedia">#FFD700</color>            <!-- Dorado -->
+    <color name="genero_drama">#784bb5</color>              <!-- Violeta medio -->
+    <color name="genero_terror">#55347f</color>             <!-- Violeta oscuro -->
+    <color name="genero_ciencia_ficcion">#00BCD4</color>    <!-- Cyan (complementario) -->
+    <color name="genero_romance">#E91E63</color>            <!-- Rosa (complementario) -->
+    <color name="genero_thriller">#301d47</color>           <!-- Violeta muy oscuro -->
+    <color name="genero_animacion">#FF5722</color>          <!-- Naranja (complementario) -->
+    <color name="genero_documental">#795548</color>         <!-- Marrón -->
+    <color name="genero_musical">#9C27B0</color>            <!-- Púrpura -->
+    <color name="genero_western">#8BC34A</color>            <!-- Verde lima -->
+    <color name="genero_guerra">#3F51B5</color>             <!-- Índigo -->
+    <color name="genero_fantasia">#a768fc</color>           <!-- Violeta principal -->
 
-    <!-- Colores para navegación -->
-    <color name="cinefan_nav_selected">#E50914</color>     <!-- Navegación seleccionada -->
-    <color name="cinefan_nav_unselected">#757575</color>   <!-- Navegación no seleccionada -->
+    <!-- Dividers y separadores -->
+    <color name="cinefan_divider">#22bb80fe</color>         <!-- Divider violeta suave -->
+    <color name="cinefan_outline">#44784bb5</color>         <!-- Outline violeta -->
 
-    <!-- Colores para estrellas de rating -->
-    <color name="cinefan_star_filled">#FFC107</color>      <!-- Estrella llena -->
-    <color name="cinefan_star_empty">#424242</color>       <!-- Estrella vacía -->
-    <color name="cinefan_star_half">#FFE082</color>        <!-- Estrella media -->
-
-    <!-- Overlays y transparencias -->
-    <color name="cinefan_overlay">#80000000</color>        <!-- Overlay negro 50% -->
-    <color name="cinefan_overlay_light">#40000000</color>  <!-- Overlay negro 25% -->
-    <color name="cinefan_ripple">#40E50914</color>         <!-- Efecto ripple -->
-
-    <!-- Colores Material Design base (compatibilidad) -->
-    <color name="colorPrimary">@color/cinefan_primary</color>
-    <color name="colorPrimaryDark">@color/cinefan_primary_dark</color>
-    <color name="colorAccent">@color/cinefan_accent</color>
-    <color name="colorBackground">@color/cinefan_background</color>
-    <color name="colorSurface">@color/cinefan_surface</color>
-    <color name="colorOnPrimary">@color/cinefan_text_primary</color>
-    <color name="colorOnSecondary">@color/cinefan_background</color>
-    <color name="colorOnBackground">@color/cinefan_text_primary</color>
-    <color name="colorOnSurface">@color/cinefan_text_primary</color>
-
-    <!-- Colores estándar adicionales -->
-    <color name="white">#FFFFFF</color>
-    <color name="black">#000000</color>
-    <color name="transparent">#00000000</color>
-
-    <!-- Colores para botones -->
-    <color name="cinefan_button_primary">@color/cinefan_primary</color>
-    <color name="cinefan_button_secondary">@color/cinefan_surface</color>
-    <color name="cinefan_button_disabled">#424242</color>
-
-    <!-- Colores para géneros de películas (opcionales) -->
-    <color name="genero_accion">#FF5722</color>            <!-- Naranja -->
-    <color name="genero_comedia">#FFEB3B</color>           <!-- Amarillo -->
-    <color name="genero_drama">#9C27B0</color>             <!-- Púrpura -->
-    <color name="genero_terror">#212121</color>            <!-- Negro -->
-    <color name="genero_romance">#E91E63</color>           <!-- Rosa -->
-    <color name="genero_ciencia_ficcion">#00BCD4</color>   <!-- Cian -->
-    <color name="genero_thriller">#795548</color>          <!-- Marrón -->
-    <color name="genero_aventura">#4CAF50</color>          <!-- Verde -->
-    <color name="genero_animacion">#FF9800</color>         <!-- Naranja claro -->
-    <color name="genero_documental">#607D8B</color>        <!-- Azul gris -->
-    <color name="genero_musical">#673AB7</color>           <!-- Púrpura profundo -->
-    <color name="genero_western">#8BC34A</color>           <!-- Verde lima -->
-    <color name="genero_guerra">#3F51B5</color>            <!-- Índigo -->
+    <!-- Fondos especiales -->
+    <color name="info_background">#1Abb80fe</color>         <!-- Fondo info violeta claro -->
+    <color name="warning_background">#1AFF9800</color>      <!-- Fondo warning naranja -->
+    <color name="error_background">#1AF44336</color>        <!-- Fondo error rojo -->
+    <color name="success_background">#1A4CAF50</color>      <!-- Fondo success verde -->
 
     <!-- Colores adicionales para compatibilidad -->
     <color name="primary_color">@color/cinefan_primary</color>
@@ -90,18 +82,16 @@
     <color name="text_color_secondary">@color/cinefan_text_secondary</color>
     <color name="background_color">@color/cinefan_background</color>
     <color name="surface_color">@color/cinefan_surface</color>
+    <color name="text_white">@color/cinefan_text_primary</color>
 
-    <!-- Colores para selector de navegación -->
-    <color name="selector_color_active">@color/cinefan_primary</color>
-    <color name="selector_color_inactive">@color/cinefan_text_secondary</color>
-    <color name="cinefan_surface_variant">@color/cinefan_surface_light</color>
-    <color name="info_background">@color/cinefan_surface</color>
-    <color name="info_color">@color/cinefan_info</color>
-    <color name="warning_background">@color/cinefan_surface</color>
-    <color name="warning_color">@color/cinefan_warning</color>
-    <color name="cinefan_primary_variant">@color/cinefan_primary_dark</color>
-    <color name="ripple_primary">@color/cinefan_ripple</color>
-    <color name="cinefan_divider">#1FFFFFFF</color> <color name="cinefan_text_tertiary">@color/cinefan_text_hint</color>
-    <color name="error_background">#40F44336</color> <color name="text_white">@color/white</color>
+    <!-- Colores básicos -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- Gradientes especiales para efectos -->
+    <color name="gradient_start">#a768fc</color>            <!-- Violeta principal -->
+    <color name="gradient_center">#784bb5</color>           <!-- Violeta medio -->
+    <color name="gradient_end">#301d47</color>              <!-- Violeta oscuro -->
 
 </resources>

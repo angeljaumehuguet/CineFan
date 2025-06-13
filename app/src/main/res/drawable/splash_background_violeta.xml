@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Fondo con gradiente violeta -->
+    <item>
+        <shape>
+            <gradient
+                android:type="radial"
+                android:centerX="0.5"
+                android:centerY="0.3"
+                android:gradientRadius="800dp"
+                android:startColor="#a768fc"
+                android:centerColor="#784bb5"
+                android:endColor="#0c0715" />
+        </shape>
+    </item>
+
+    <!-- Efecto de partículas (opcional) -->
+    <item android:gravity="center">
+        <shape android:shape="oval">
+            <size android:width="300dp" android:height="300dp" />
+            <gradient
+                android:type="radial"
+                android:gradientRadius="150dp"
+                android:startColor="#22bb80fe"
+                android:endColor="#00bb80fe" />
+        </shape>
+    </item>
+
+    <!-- Logo centrado (aquí irá tu logo personalizado) -->
+    <item android:gravity="center">
+        <bitmap android:src="@drawable/logo_cinefan"
+            android:gravity="center" />
+    </item>
+
+</layer-list>

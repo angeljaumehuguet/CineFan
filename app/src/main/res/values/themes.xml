@@ -1,42 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
-    <!-- Tema base de la aplicación -->
+    <!-- ========================================= -->
+    <!-- TEMA CINEFAN - EDICIÓN VIOLETA PREMIUM -->
+    <!-- ========================================= -->
+
     <style name="AppTheme" parent="Theme.Material3.DayNight">
-        <!-- Colores primarios -->
+        <!-- Colores primarios violeta -->
         <item name="colorPrimary">@color/cinefan_primary</item>
         <item name="colorPrimaryVariant">@color/cinefan_primary_dark</item>
         <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorPrimaryContainer">@color/cinefan_primary_light</item>
+        <item name="colorOnPrimaryContainer">@color/cinefan_background</item>
 
-        <!-- Colores secundarios -->
+        <!-- Colores secundarios (dorado complementario) -->
         <item name="colorSecondary">@color/cinefan_secondary</item>
         <item name="colorSecondaryVariant">@color/cinefan_secondary_dark</item>
-        <item name="colorOnSecondary">@android:color/white</item>
+        <item name="colorOnSecondary">@color/cinefan_background</item>
+        <item name="colorSecondaryContainer">@color/cinefan_secondary_light</item>
+        <item name="colorOnSecondaryContainer">@color/cinefan_background</item>
 
-        <!-- Colores de superficie -->
+        <!-- Colores de superficie y fondo -->
         <item name="android:colorBackground">@color/cinefan_background</item>
         <item name="colorSurface">@color/cinefan_surface</item>
         <item name="colorOnBackground">@color/cinefan_text_primary</item>
         <item name="colorOnSurface">@color/cinefan_text_primary</item>
+        <item name="colorSurfaceVariant">@color/cinefan_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/cinefan_text_secondary</item>
 
-        <!-- Colores de error -->
-        <item name="colorError">@color/error_color</item>
+        <!-- Colores de estado -->
+        <item name="colorError">@color/cinefan_error</item>
         <item name="colorOnError">@android:color/white</item>
+        <item name="colorErrorContainer">@color/error_background</item>
+        <item name="colorOnErrorContainer">@color/cinefan_error</item>
 
-        <!-- Status bar -->
-        <item name="android:statusBarColor">@color/cinefan_primary</item>
+        <!-- Colores de contorno -->
+        <item name="colorOutline">@color/cinefan_outline</item>
+        <item name="colorOutlineVariant">@color/cinefan_divider</item>
+
+        <!-- Status bar y navigation bar -->
+        <item name="android:statusBarColor">@color/cinefan_background</item>
         <item name="android:windowLightStatusBar">false</item>
-
-        <!-- Navigation bar -->
         <item name="android:navigationBarColor">@color/cinefan_background</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">false</item>
 
-        <!-- Window -->
-        <item name="android:windowBackground">@color/cinefan_background</item>
+        <!-- Window settings -->
+        <item name="android:windowBackground">@drawable/gradient_background_main</item>
         <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowActivityTransitions">true</item>
 
-        <!-- Material components -->
-        <item name="materialButtonStyle">@style/CineFanButton</item>
-        <item name="textInputStyle">@style/CineFanTextInput</item>
+        <!-- Material components personalizados -->
+        <item name="materialButtonStyle">@style/CineFanButton.Violeta</item>
+        <item name="textInputStyle">@style/CineFanTextInput.Violeta</item>
+        <item name="cardViewStyle">@style/CineFanCard.Violeta</item>
+        <item name="materialCardViewStyle">@style/CineFanCard.Violeta</item>
+
+        <!-- Toolbar y AppBar -->
+        <item name="toolbarStyle">@style/CineFanToolbar.Violeta</item>
+        <item name="actionBarStyle">@style/CineFanActionBar.Violeta</item>
     </style>
 
     <!-- ======= TEMA SIN ACTION BAR ======= -->
@@ -47,138 +68,132 @@
         <item name="android:fitsSystemWindows">true</item>
     </style>
 
-    <!-- Tema para splash screen -->
-    <style name="SplashTheme" parent="Theme.Material3.DayNight.NoActionBar">
-        <item name="android:windowBackground">@drawable/splash_background</item>
-        <item name="android:statusBarColor">@color/cinefan_primary</item>
-        <item name="android:windowLightStatusBar">false</item>
+    <!-- ======= TEMA PARA SPLASH SCREEN ======= -->
+    <style name="SplashTheme" parent="AppTheme.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_background_violeta</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
         <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
     </style>
 
-    <!-- Tema para actividades fullscreen -->
-    <style name="FullscreenTheme" parent="AppTheme.NoActionBar">
-        <item name="android:windowFullscreen">false</item>
-        <item name="android:fitsSystemWindows">true</item>
+    <!-- ======= ESTILOS DE BOTONES VIOLETA ======= -->
+    <style name="CineFanButton.Violeta" parent="Widget.Material3.Button">
+        <item name="android:background">@drawable/gradient_button_primary</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:elevation">4dp</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="rippleColor">@color/cinefan_ripple</item>
+        <item name="cornerRadius">8dp</item>
     </style>
 
-    <!-- Action Bar personalizada -->
-    <style name="CineFanActionBar" parent="Widget.Material3.ActionBar.Solid">
-        <item name="background">@color/cinefan_primary</item>
+    <style name="CineFanButton.Outlined.Violeta" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="strokeColor">@color/cinefan_primary</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="android:textColor">@color/cinefan_primary</item>
+        <item name="rippleColor">@color/cinefan_ripple</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+    <style name="CineFanButton.Text.Violeta" parent="Widget.Material3.Button.TextButton">
+        <item name="android:textColor">@color/cinefan_primary</item>
+        <item name="rippleColor">@color/cinefan_ripple</item>
+    </style>
+
+    <!-- ======= ESTILOS DE INPUTS VIOLETA ======= -->
+    <style name="CineFanTextInput.Violeta" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/cinefan_primary</item>
+        <item name="boxStrokeWidth">2dp</item>
+        <item name="hintTextColor">@color/cinefan_text_hint</item>
+        <item name="android:textColorHint">@color/cinefan_text_hint</item>
+        <item name="boxCornerRadiusTopStart">8dp</item>
+        <item name="boxCornerRadiusTopEnd">8dp</item>
+        <item name="boxCornerRadiusBottomStart">8dp</item>
+        <item name="boxCornerRadiusBottomEnd">8dp</item>
+        <item name="errorTextColor">@color/cinefan_error</item>
+    </style>
+
+    <!-- ======= ESTILOS DE CARDS VIOLETA ======= -->
+    <style name="CineFanCard.Violeta" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardBackgroundColor">@color/cinefan_surface</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">8dp</item>
+        <item name="strokeColor">@color/cinefan_outline</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="rippleColor">@color/cinefan_ripple</item>
+    </style>
+
+    <!-- ======= ESTILOS DE TOOLBAR VIOLETA ======= -->
+    <style name="CineFanToolbar.Violeta" parent="Widget.Material3.Toolbar">
+        <item name="android:background">@drawable/gradient_card_background</item>
+        <item name="titleTextColor">@color/cinefan_text_primary</item>
+        <item name="subtitleTextColor">@color/cinefan_text_secondary</item>
+        <item name="android:elevation">4dp</item>
+    </style>
+
+    <style name="CineFanActionBar.Violeta" parent="Widget.Material3.ActionBar.Solid">
+        <item name="background">@drawable/gradient_card_background</item>
         <item name="titleTextStyle">@style/CineFanActionBarTitle</item>
         <item name="elevation">4dp</item>
     </style>
 
     <style name="CineFanActionBarTitle" parent="TextAppearance.Material3.ActionBar.Title">
-        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColor">@color/cinefan_text_primary</item>
         <item name="android:textStyle">bold</item>
     </style>
 
-    <!-- Botones -->
-    <style name="CineFanButton" parent="Widget.Material3.Button">
-        <item name="android:textStyle">bold</item>
-        <item name="cornerRadius">12dp</item>
-        <item name="android:textAllCaps">false</item>
-    </style>
-
-    <style name="CineFanButton.Primary">
-        <item name="backgroundTint">@color/cinefan_primary</item>
-        <item name="android:textColor">@android:color/white</item>
-    </style>
-
-    <style name="CineFanButton.Secondary">
-        <item name="backgroundTint">@color/cinefan_secondary</item>
-        <item name="android:textColor">@android:color/white</item>
-    </style>
-
-    <style name="CineFanButton.Accent">
-        <item name="backgroundTint">@color/cinefan_accent</item>
-        <item name="android:textColor">@android:color/white</item>
-    </style>
-
-    <style name="CineFanButton.Outlined" parent="Widget.Material3.Button.OutlinedButton">
-        <item name="strokeColor">@color/cinefan_primary</item>
-        <item name="android:textColor">@color/cinefan_primary</item>
-        <item name="cornerRadius">12dp</item>
-        <item name="android:textAllCaps">false</item>
-    </style>
-
-    <!-- Text Inputs -->
-    <style name="CineFanTextInput" parent="Widget.Material3.TextInputLayout.OutlinedBox">
-        <item name="boxStrokeColor">@color/cinefan_primary</item>
-        <item name="boxStrokeWidth">2dp</item>
-        <item name="hintTextColor">@color/cinefan_text_secondary</item>
-        <item name="android:textColorHint">@color/cinefan_text_secondary</item>
-    </style>
-
-    <!-- Cards -->
-    <style name="CineFanCard" parent="Widget.Material3.CardView.Elevated">
-        <item name="cardCornerRadius">12dp</item>
-        <item name="cardElevation">4dp</item>
-        <item name="cardBackgroundColor">@color/cinefan_surface</item>
-    </style>
-
-    <!-- Floating Action Button -->
-    <style name="CineFanFAB" parent="Widget.Material3.FloatingActionButton.Primary">
-        <item name="backgroundTint">@color/cinefan_accent</item>
-        <item name="tint">@android:color/white</item>
-        <item name="elevation">6dp</item>
-    </style>
-
-    <!-- Toolbar -->
-    <style name="CineFanToolbar" parent="Widget.Material3.Toolbar">
-        <item name="android:background">@color/cinefan_primary</item>
-        <item name="titleTextColor">@android:color/white</item>
-        <item name="subtitleTextColor">@color/cinefan_text_secondary</item>
-        <item name="android:elevation">4dp</item>
-    </style>
-
-    <!-- Bottom Navigation -->
-    <style name="CineFanBottomNavigation" parent="Widget.Material3.BottomNavigationView">
-        <item name="itemIconTint">@color/selector_bottom_nav</item>
-        <item name="itemTextColor">@color/selector_bottom_nav</item>
-        <item name="android:background">@color/cinefan_surface</item>
-        <item name="elevation">8dp</item>
-    </style>
-
-    <!-- Tab Layout -->
+    <!-- ======= ESTILOS DE TAB LAYOUT VIOLETA ======= -->
     <style name="CineFanTabLayout" parent="Widget.Material3.TabLayout">
-        <item name="tabIndicatorColor">@color/cinefan_accent</item>
-        <item name="tabSelectedTextColor">@color/cinefan_accent</item>
-        <item name="tabTextColor">@color/cinefan_text_secondary</item>
+        <item name="tabTextColor">@color/cinefan_text_hint</item>
+        <item name="tabSelectedTextColor">@color/cinefan_text_primary</item>
+        <item name="tabIndicatorColor">@color/cinefan_primary</item>
+        <item name="tabIndicatorHeight">3dp</item>
         <item name="android:background">@color/cinefan_surface</item>
-        <item name="tabTextAppearance">@style/TabTextAppearance</item>
+        <item name="tabRippleColor">@color/cinefan_ripple</item>
     </style>
 
-    <style name="TabTextAppearance" parent="TextAppearance.Material3.TitleSmall">
-        <item name="android:textColor">@color/cinefan_text_secondary</item>
-        <item name="textAllCaps">false</item>
+    <!-- ======= ESTILOS DE FLOATING ACTION BUTTON ======= -->
+    <style name="CineFanFAB" parent="Widget.Material3.FloatingActionButton.Primary">
+        <item name="backgroundTint">@color/cinefan_primary</item>
+        <item name="tint">@android:color/white</item>
+        <item name="rippleColor">@color/cinefan_ripple</item>
+        <item name="elevation">8dp</item>
+        <item name="pressedTranslationZ">12dp</item>
+    </style>
+
+    <!-- ======= ESTILOS DE PROGRESS BAR ======= -->
+    <style name="CineFanProgressBar" parent="Widget.Material3.CircularProgressIndicator">
+        <item name="indicatorColor">@color/cinefan_primary</item>
+        <item name="trackColor">@color/cinefan_surface_light</item>
+    </style>
+
+    <!-- ======= ESTILOS DE SWITCHES Y CHECKBOXES ======= -->
+    <style name="CineFanSwitch" parent="Widget.Material3.CompoundButton.Switch">
+        <item name="thumbTint">@color/cinefan_primary</item>
+        <item name="trackTint">@color/cinefan_surface_light</item>
+    </style>
+
+    <style name="CineFanCheckBox" parent="Widget.Material3.CompoundButton.CheckBox">
+        <item name="buttonTint">@color/cinefan_primary</item>
+    </style>
+
+    <!-- ======= ESTILOS DE TEXTO ======= -->
+    <style name="CineFanText.Title" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="android:textColor">@color/cinefan_text_primary</item>
         <item name="android:textStyle">bold</item>
     </style>
 
-    <!-- Rating Bar -->
-    <style name="CineFanRatingBar" parent="Widget.AppCompat.RatingBar.Small">
-        <item name="android:progressTint">@color/cinefan_accent</item>
-        <item name="android:secondaryProgressTint">@color/cinefan_text_disabled</item>
-        <item name="android:progressBackgroundTint">@color/cinefan_text_disabled</item>
+    <style name="CineFanText.Subtitle" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textColor">@color/cinefan_text_secondary</item>
     </style>
 
-    <!-- Switch -->
-    <style name="CineFanSwitch" parent="Widget.Material3.CompoundButton.Switch">
-        <item name="thumbTint">@color/cinefan_accent</item>
-        <item name="trackTint">@color/cinefan_primary</item>
+    <style name="CineFanText.Body" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/cinefan_text_primary</item>
     </style>
 
-    <!-- Chip -->
-    <style name="CineFanChip" parent="Widget.Material3.Chip.Assist">
-        <item name="chipBackgroundColor">@color/cinefan_primary</item>
-        <item name="android:textColor">@android:color/white</item>
-        <item name="chipCornerRadius">20dp</item>
-    </style>
-
-    <!-- Progress Bar -->
-    <style name="CineFanProgressBar" parent="Widget.AppCompat.ProgressBar.Horizontal">
-        <item name="android:progressTint">@color/cinefan_accent</item>
-        <item name="android:progressBackgroundTint">@color/cinefan_text_disabled</item>
+    <style name="CineFanText.Caption" parent="TextAppearance.Material3.BodySmall">
+        <item name="android:textColor">@color/cinefan_text_hint</item>
     </style>
 
 </resources>

@@ -48,8 +48,16 @@
         "source": "com.example.cinefan.app-main-39:/drawable/ic_lock_check.xml"
     },
     {
+        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ripple_violeta.xml.flat",
+        "source": "com.example.cinefan.app-main-39:/drawable/ripple_violeta.xml"
+    },
+    {
         "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_location_cinema.xml.flat",
         "source": "com.example.cinefan.app-main-39:/drawable/ic_location_cinema.xml"
+    },
+    {
+        "merged": "com.example.cinefan.app-merged_res-37:/drawable_splash_background_violeta.xml.flat",
+        "source": "com.example.cinefan.app-main-39:/drawable/splash_background_violeta.xml"
     },
     {
         "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_music_off.xml.flat",
@@ -70,6 +78,10 @@
     {
         "merged": "com.example.cinefan.app-merged_res-37:/mipmap-xxxhdpi_logo_cinefan.png.flat",
         "source": "com.example.cinefan.app-main-39:/mipmap-xxxhdpi/logo_cinefan.png"
+    },
+    {
+        "merged": "com.example.cinefan.app-merged_res-37:/drawable_gradient_card_background.xml.flat",
+        "source": "com.example.cinefan.app-main-39:/drawable/gradient_card_background.xml"
     },
     {
         "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_movie_placeholder.xml.flat",
@@ -106,6 +118,10 @@
     {
         "merged": "com.example.cinefan.app-merged_res-37:/mipmap-hdpi_logo_cinefan.png.flat",
         "source": "com.example.cinefan.app-main-39:/mipmap-hdpi/logo_cinefan.png"
+    },
+    {
+        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_edit.xml.flat",
+        "source": "com.example.cinefan.app-main-39:/drawable/ic_edit.xml"
     },
     {
         "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_add.xml.flat",
@@ -188,6 +204,10 @@
         "source": "com.example.cinefan.app-main-39:/drawable/bg_mini_chip.xml"
     },
     {
+        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_clock.xml.flat",
+        "source": "com.example.cinefan.app-main-39:/drawable/ic_clock.xml"
+    },
+    {
         "merged": "com.example.cinefan.app-merged_res-37:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "com.example.cinefan.app-main-39:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
@@ -204,8 +224,16 @@
         "source": "com.example.cinefan.app-main-39:/drawable/ic_map_loading.xml"
     },
     {
+        "merged": "com.example.cinefan.app-merged_res-37:/drawable_gradient_button_primary.xml.flat",
+        "source": "com.example.cinefan.app-main-39:/drawable/gradient_button_primary.xml"
+    },
+    {
         "merged": "com.example.cinefan.app-merged_res-37:/layout_activity_agregar_resena.xml.flat",
         "source": "com.example.cinefan.app-main-39:/layout/activity_agregar_resena.xml"
+    },
+    {
+        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_delete.xml.flat",
+        "source": "com.example.cinefan.app-main-39:/drawable/ic_delete.xml"
     },
     {
         "merged": "com.example.cinefan.app-merged_res-37:/xml_data_extraction_rules.xml.flat",
@@ -434,6 +462,10 @@
     {
         "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_person_director.xml.flat",
         "source": "com.example.cinefan.app-main-39:/drawable/ic_person_director.xml"
+    },
+    {
+        "merged": "com.example.cinefan.app-merged_res-37:/drawable_gradient_background_main.xml.flat",
+        "source": "com.example.cinefan.app-main-39:/drawable/gradient_background_main.xml"
     },
     {
         "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_user_default.xml.flat",

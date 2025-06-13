@@ -246,7 +246,7 @@ public class MainActivity extends AppCompatActivity {
         new AlertDialog.Builder(this)
                 .setTitle(getString(R.string.acerca_de_cinefan))
                 .setMessage(getString(R.string.informacion_app))
-                .setIcon(R.mipmap.ic_launcher)
+                .setIcon(R.mipmap.logo_cinefan)
                 .setPositiveButton(getString(R.string.entendido), null)
                 .show();
     }

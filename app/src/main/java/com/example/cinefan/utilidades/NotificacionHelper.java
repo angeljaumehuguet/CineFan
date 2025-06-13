@@ -71,7 +71,7 @@ public class NotificacionHelper {
             Constantes.CANAL_ID_NOTIFICACIONES
         )
             .setSmallIcon(icono)
-            .setLargeIcon(BitmapFactory.decodeResource(context.getResources(), R.mipmap.ic_launcher))
+            .setLargeIcon(BitmapFactory.decodeResource(context.getResources(), R.mipmap.logo_cinefan))
             .setContentTitle(titulo)
             .setContentText(mensaje)
             .setStyle(new NotificationCompat.BigTextStyle().bigText(mensaje))
@@ -122,7 +122,7 @@ public class NotificacionHelper {
             Constantes.CANAL_ID_NOTIFICACIONES
         )
             .setSmallIcon(icono)
-            .setLargeIcon(BitmapFactory.decodeResource(context.getResources(), R.mipmap.ic_launcher))
+            .setLargeIcon(BitmapFactory.decodeResource(context.getResources(), R.mipmap.logo_cinefan))
             .setContentTitle(titulo)
             .setContentText(mensaje)
             .setStyle(new NotificationCompat.BigTextStyle().bigText(mensajeExpandido))

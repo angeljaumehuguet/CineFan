@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
     <gradient
+        android:type="linear"
         android:angle="135"
-        android:startColor="@color/cinefan_primary"
-        android:centerColor="@color/cinefan_secondary"
-        android:endColor="@color/cinefan_accent"
-        android:type="linear" />
+        android:startColor="#a768fc"
+        android:centerColor="#784bb5"
+        android:endColor="#301d47" />
 </shape>
