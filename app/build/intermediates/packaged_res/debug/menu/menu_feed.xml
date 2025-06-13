@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- refrescar -->
+    <item
+        android:id="@+id/action_refrescar"
+        android:title="@string/refrescar"
+        android:icon="@drawable/ic_refresh"
+        app:showAsAction="ifRoom" />
+
+    <!-- filtros -->
+    <item
+        android:id="@+id/action_filtros"
+        android:title="@string/filtros"
+        android:icon="@drawable/ic_filter"
+        app:showAsAction="never" />
+
+    <!-- buscar -->
+    <item
+        android:id="@+id/action_buscar"
+        android:title="@string/buscar"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="never" />
+
+</menu>

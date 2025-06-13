@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "com.example.cinefan.app-mergeDebugResources-36:/layout/fragment_placeholder.xml",
+        "source": "com.example.cinefan.app-main-39:/layout/fragment_placeholder.xml"
+    },
+    {
+        "merged": "com.example.cinefan.app-mergeDebugResources-36:/layout/item_pelicula.xml",
+        "source": "com.example.cinefan.app-main-39:/layout/item_pelicula.xml"
+    },
+    {
+        "merged": "com.example.cinefan.app-mergeDebugResources-36:/layout/activity_main.xml",
+        "source": "com.example.cinefan.app-main-39:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.cinefan.app-mergeDebugResources-36:/layout/fragment_mis_peliculas.xml",
+        "source": "com.example.cinefan.app-main-39:/layout/fragment_mis_peliculas.xml"
+    },
+    {
+        "merged": "com.example.cinefan.app-mergeDebugResources-36:/layout/activity_agregar_resena.xml",
+        "source": "com.example.cinefan.app-main-39:/layout/activity_agregar_resena.xml"
+    },
+    {
+        "merged": "com.example.cinefan.app-mergeDebugResources-36:/layout/activity_gestion.xml",
+        "source": "com.example.cinefan.app-main-39:/layout/activity_gestion.xml"
+    },
+    {
+        "merged": "com.example.cinefan.app-mergeDebugResources-36:/layout/item_resena.xml",
+        "source": "com.example.cinefan.app-main-39:/layout/item_resena.xml"
+    },
+    {
+        "merged": "com.example.cinefan.app-mergeDebugResources-36:/layout/fragment_mis_resenas.xml",
+        "source": "com.example.cinefan.app-main-39:/layout/fragment_mis_resenas.xml"
+    },
+    {
+        "merged": "com.example.cinefan.app-mergeDebugResources-36:/layout/activity_registro.xml",
+        "source": "com.example.cinefan.app-main-39:/layout/activity_registro.xml"
+    },
+    {
+        "merged": "com.example.cinefan.app-mergeDebugResources-36:/layout/activity_mapa.xml",
+        "source": "com.example.cinefan.app-main-39:/layout/activity_mapa.xml"
+    },
+    {
+        "merged": "com.example.cinefan.app-mergeDebugResources-36:/layout/activity_agregar_peliculas.xml",
+        "source": "com.example.cinefan.app-main-39:/layout/activity_agregar_peliculas.xml"
+    },
+    {
+        "merged": "com.example.cinefan.app-mergeDebugResources-36:/layout/activity_splash.xml",
+        "source": "com.example.cinefan.app-main-39:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.example.cinefan.app-mergeDebugResources-36:/layout/activity_login.xml",
+        "source": "com.example.cinefan.app-main-39:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.cinefan.app-mergeDebugResources-36:/layout/activity_feed.xml",
+        "source": "com.example.cinefan.app-main-39:/layout/activity_feed.xml"
+    }
+]

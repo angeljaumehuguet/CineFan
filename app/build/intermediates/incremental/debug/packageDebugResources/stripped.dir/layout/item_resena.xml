@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp"
+    app:cardBackgroundColor="@color/cinefan_surface">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- header con usuario y fecha -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="12dp">
+
+            <!-- información del usuario -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <!-- nombre del usuario -->
+                <TextView
+                    android:id="@+id/txt_nombre_usuario"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Usuario"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cinefan_text_primary"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    tools:text="María García" />
+
+                <!-- fecha de la reseña -->
+                <TextView
+                    android:id="@+id/txt_fecha_resena"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fecha"
+                    android:textSize="12sp"
+                    android:textColor="@color/cinefan_text_secondary"
+                    tools:text="Hace 2 días" />
+
+            </LinearLayout>
+
+            <!-- puntuación con estrellas -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:background="@drawable/bg_rating_chip"
+                android:paddingHorizontal="12dp"
+                android:paddingVertical="6dp">
+
+                <TextView
+                    android:id="@+id/txt_puntuacion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4.5"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cinefan_accent"
+                    android:layout_marginEnd="4dp"
+                    tools:text="4.5" />
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:src="@drawable/ic_star_filled"
+                    android:contentDescription="Estrella"
+                    app:tint="@color/cinefan_accent" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- información de la película -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="12dp">
+
+            <!-- imagen de la película -->
+            <ImageView
+                android:id="@+id/img_pelicula"
+                android:layout_width="60dp"
+                android:layout_height="90dp"
+                android:src="@drawable/ic_movie"
+                android:scaleType="centerCrop"
+                android:background="@drawable/bg_image_placeholder"
+                android:layout_marginEnd="12dp"
+                android:contentDescription="Imagen película" />
+
+            <!-- detalles de la película -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <!-- título de la película -->
+                <TextView
+                    android:id="@+id/txt_titulo_pelicula"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Título de la película"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cinefan_text_primary"
+                    android:maxLines="2"
+                    android:ellipsize="end"
+                    android:layout_marginBottom="4dp"
+                    tools:text="El Padrino" />
+
+                <!-- director y año -->
+                <TextView
+                    android:id="@+id/txt_director_ano"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Director • Año"
+                    android:textSize="14sp"
+                    android:textColor="@color/cinefan_text_secondary"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:layout_marginBottom="4dp"
+                    tools:text="Francis Ford Coppola • 1972" />
+
+                <!-- género -->
+                <TextView
+                    android:id="@+id/txt_genero"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Género"
+                    android:textSize="12sp"
+                    android:textColor="@color/cinefan_accent"
+                    android:background="@drawable/bg_genre_chip"
+                    android:paddingHorizontal="8dp"
+                    android:paddingVertical="4dp"
+                    tools:text="Drama" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- rating bar (para compatibilidad con el adaptador) -->
+        <RatingBar
+            android:id="@+id/rating_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:rating="4.5"
+            android:stepSize="0.5"
+            android:progressTint="@color/cinefan_accent"
+            android:progressBackgroundTint="@color/cinefan_divider"
+            android:secondaryProgressTint="@color/cinefan_accent"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_marginBottom="8dp"
+            android:isIndicator="true"
+            tools:rating="4.5" />
+
+        <!-- texto de la reseña -->
+        <TextView
+            android:id="@+id/txt_texto_resena"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Texto de la reseña aquí..."
+            android:textSize="14sp"
+            android:textColor="@color/cinefan_text_primary"
+            android:lineSpacingMultiplier="1.3"
+            android:justificationMode="inter_word"
+            tools:text="Una obra maestra del cine que combina magistralmente drama familiar, crimen organizado y política. La actuación de Marlon Brando es memorable." />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

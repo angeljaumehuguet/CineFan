@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/cinefan_background"
+    tools:context=".actividades.AgregarPeliculaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- header con icono -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginBottom="32dp">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_movie_add"
+                android:contentDescription="@string/agregar_pelicula"
+                app:tint="@color/cinefan_primary"
+                android:layout_marginEnd="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/titulo_agregar_pelicula"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/cinefan_primary"
+                android:gravity="center_vertical" />
+
+        </LinearLayout>
+
+        <!-- formulario principal -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="8dp"
+            app:cardBackgroundColor="@color/cinefan_surface">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="24dp">
+
+                <!-- titulo de la pelicula -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/layout_titulo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/titulo_pelicula"
+                    app:startIconDrawable="@drawable/ic_movie"
+                    app:endIconMode="clear_text"
+                    app:boxStrokeColor="@color/cinefan_primary"
+                    app:hintTextColor="@color/cinefan_primary"
+                    android:layout_marginBottom="16dp"
+                    style="@style/Widget.Material3.TextInputLayout.OutlinedBox">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/edit_titulo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textCapWords"
+                        android:maxLines="2"
+                        android:textSize="16sp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- director -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/layout_director"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/director"
+                    app:startIconDrawable="@drawable/ic_person_director"
+                    app:endIconMode="clear_text"
+                    app:boxStrokeColor="@color/cinefan_primary"
+                    app:hintTextColor="@color/cinefan_primary"
+                    android:layout_marginBottom="16dp"
+                    style="@style/Widget.Material3.TextInputLayout.OutlinedBox">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/edit_director"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPersonName"
+                        android:maxLines="1"
+                        android:textSize="16sp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- fila con año y duracion -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="16dp">
+
+                    <!-- año de lanzamiento -->
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/layout_ano"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="@string/ano_lanzamiento"
+                        app:startIconDrawable="@drawable/ic_calendar"
+                        app:boxStrokeColor="@color/cinefan_primary"
+                        app:hintTextColor="@color/cinefan_primary"
+                        android:layout_marginEnd="8dp"
+                        style="@style/Widget.Material3.TextInputLayout.OutlinedBox">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/edit_ano"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="number"
+                            android:maxLines="1"
+                            android:textSize="16sp" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <!-- duracion en minutos -->
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/layout_duracion"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="@string/duracion_minutos"
+                        app:startIconDrawable="@drawable/ic_timer"
+                        app:suffixText="min"
+                        app:boxStrokeColor="@color/cinefan_primary"
+                        app:hintTextColor="@color/cinefan_primary"
+                        android:layout_marginStart="8dp"
+                        style="@style/Widget.Material3.TextInputLayout.OutlinedBox">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/edit_duracion"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="number"
+                            android:maxLines="1"
+                            android:textSize="16sp" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                </LinearLayout>
+
+                <!-- genero con dropdown -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/layout_genero"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/genero"
+                    app:startIconDrawable="@drawable/ic_category"
+                    app:endIconMode="dropdown_menu"
+                    app:boxStrokeColor="@color/cinefan_primary"
+                    app:hintTextColor="@color/cinefan_primary"
+                    android:layout_marginBottom="16dp"
+                    style="@style/Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/edit_genero"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="none"
+                        android:textSize="16sp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- seccion de imagen -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/imagen_pelicula"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cinefan_primary"
+                    android:layout_marginBottom="12dp" />
+
+                <!-- url de imagen -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/layout_imagen_url"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/url_imagen_opcional"
+                    app:startIconDrawable="@drawable/ic_image"
+                    app:endIconMode="clear_text"
+                    app:boxStrokeColor="@color/cinefan_primary"
+                    app:hintTextColor="@color/cinefan_primary"
+                    app:helperText="@string/ayuda_url_imagen"
+                    android:layout_marginBottom="12dp"
+                    style="@style/Widget.Material3.TextInputLayout.OutlinedBox">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/edit_imagen_url"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textUri"
+                        android:maxLines="2"
+                        android:textSize="14sp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- boton para cargar vista previa -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_cargar_imagen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cargar_vista_previa"
+                    app:icon="@drawable/ic_preview"
+                    app:cornerRadius="20dp"
+                    app:backgroundTint="@color/cinefan_secondary"
+                    android:textColor="@android:color/white"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="16dp"
+                    style="@style/Widget.Material3.Button.UnelevatedButton" />
+
+                <!-- vista previa de imagen -->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="200dp"
+                    android:layout_height="300dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="4dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="24dp">
+
+                    <ImageView
+                        android:id="@+id/img_vista_previa"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_movie_placeholder"
+                        android:scaleType="centerCrop"
+                        android:contentDescription="@string/vista_previa_imagen"
+                        android:background="@color/cinefan_surface_variant" />
+
+                </androidx.cardview.widget.CardView>
+
+                <!-- progress bar -->
+                <ProgressBar
+                    android:id="@+id/progress_bar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:visibility="gone"
+                    android:indeterminateTint="@color/cinefan_primary"
+                    android:layout_marginBottom="16dp" />
+
+                <!-- boton guardar -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_guardar"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:text="@string/guardar_pelicula"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:icon="@drawable/ic_save"
+                    app:cornerRadius="12dp"
+                    app:backgroundTint="@color/cinefan_primary"
+                    android:textColor="@android:color/white"
+                    style="@style/Widget.Material3.Button.UnelevatedButton" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- espaciador final -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="24dp" />
+
+    </LinearLayout>
+
+</ScrollView>

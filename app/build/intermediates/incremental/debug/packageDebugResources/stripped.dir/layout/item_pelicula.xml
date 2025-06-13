@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp"
+    app:cardBackgroundColor="@color/cinefan_surface"
+    android:foreground="?attr/selectableItemBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <!-- imagen de la pelicula -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="80dp"
+            android:layout_height="120dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="2dp">
+
+            <ImageView
+                android:id="@+id/img_pelicula"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_movie_placeholder"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/imagen_pelicula_desc"
+                android:background="@color/cinefan_surface_variant" />
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- informacion de la pelicula -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="8dp">
+
+            <!-- titulo -->
+            <TextView
+                android:id="@+id/txt_titulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/titulo_placeholder"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/cinefan_text_primary"
+                android:maxLines="2"
+                android:ellipsize="end"
+                tools:text="El Padrino" />
+
+            <!-- director y año -->
+            <TextView
+                android:id="@+id/txt_director_ano"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/director_ano_placeholder"
+                android:textSize="14sp"
+                android:textColor="@color/cinefan_text_secondary"
+                android:layout_marginTop="4dp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                tools:text="Francis Ford Coppola • 1972" />
+
+            <!-- genero -->
+            <TextView
+                android:id="@+id/txt_genero"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/genero_placeholder"
+                android:textSize="13sp"
+                android:textColor="@color/cinefan_text_tertiary"
+                android:layout_marginTop="2dp"
+                android:drawableStart="@drawable/ic_category"
+                android:drawablePadding="6dp"
+                app:drawableTint="@color/cinefan_text_tertiary"
+                tools:text="Drama" />
+
+            <!-- duracion -->
+            <TextView
+                android:id="@+id/txt_duracion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/duracion_placeholder"
+                android:textSize="13sp"
+                android:textColor="@color/cinefan_text_tertiary"
+                android:layout_marginTop="2dp"
+                android:drawableStart="@drawable/ic_timer"
+                android:drawablePadding="6dp"
+                app:drawableTint="@color/cinefan_text_tertiary"
+                tools:text="175 min" />
+
+            <!-- puntuacion y resenas -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                android:gravity="center_vertical">
+
+                <!-- puntuacion promedio -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/bg_rating_chip"
+                    android:paddingHorizontal="8dp"
+                    android:paddingVertical="4dp">
+
+                    <TextView
+                        android:id="@+id/txt_puntuacion"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/puntuacion_placeholder"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/cinefan_accent"
+                        android:layout_marginEnd="4dp"
+                        tools:text="4.8" />
+
+                    <ImageView
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:src="@drawable/ic_star_filled"
+                        android:contentDescription="@string/estrellas"
+                        app:tint="@color/cinefan_accent" />
+
+                </LinearLayout>
+
+                <!-- total de resenas -->
+                <TextView
+                    android:id="@+id/txt_total_resenas"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/resenas_placeholder"
+                    android:textSize="12sp"
+                    android:textColor="@color/cinefan_text_secondary"
+                    android:layout_marginStart="12dp"
+                    android:drawableStart="@drawable/ic_reviews"
+                    android:drawablePadding="4dp"
+                    app:drawableTint="@color/cinefan_text_secondary"
+                    tools:text="23 reseñas" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- boton de opciones -->
+        <ImageButton
+            android:id="@+id/btn_opciones"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_more_vert"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/mas_opciones"
+            app:tint="@color/cinefan_text_secondary"
+            android:layout_gravity="top" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

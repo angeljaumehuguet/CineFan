@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Estado seleccionado/activo -->
+    <item android:state_checked="true">
+        <color>@color/cinefan_primary</color>
+    </item>
+
+    <!-- Estado presionado -->
+    <item android:state_pressed="true">
+        <color>@color/cinefan_primary_dark</color>
+    </item>
+
+    <!-- Estado enfocado -->
+    <item android:state_focused="true">
+        <color>@color/cinefan_accent</color>
+    </item>
+
+    <!-- Estado normal/inactivo -->
+    <item>
+        <color>@color/cinefan_text_secondary</color>
+    </item>
+
+</selector>

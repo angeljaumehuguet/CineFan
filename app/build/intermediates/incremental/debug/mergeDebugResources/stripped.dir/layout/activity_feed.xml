@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cinefan_background"
+    tools:context=".actividades.FeedActivity">
+
+    <!-- app bar layout -->
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:elevation="4dp">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/cinefan_primary"
+            app:title="@string/titulo_feed"
+            app:titleTextColor="@android:color/white"
+            app:navigationIcon="@drawable/ic_arrow_back"
+            app:navigationIconTint="@android:color/white" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!-- contenido principal -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <!-- swipe refresh layout -->
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/swipe_refresh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:enabled="true">
+
+            <!-- recycler view para las resenas -->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_resenas"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipToPadding="false"
+                android:paddingTop="8dp"
+                android:paddingBottom="88dp"
+                android:scrollbars="vertical"
+                tools:listitem="@layout/item_resena" />
+
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+        <!-- vista cuando no hay resenas -->
+        <LinearLayout
+            android:id="@+id/layout_sin_resenas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="32dp"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/ic_empty_feed"
+                android:contentDescription="@string/sin_resenas"
+                app:tint="@color/cinefan_text_disabled"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:id="@+id/txt_sin_resenas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/no_hay_resenas_feed"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/cinefan_text_secondary"
+                android:gravity="center"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mensaje_feed_vacio"
+                android:textSize="14sp"
+                android:textColor="@color/cinefan_text_disabled"
+                android:gravity="center"
+                android:layout_marginBottom="16dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/escribir_primera_resena"
+                app:icon="@drawable/ic_add"
+                app:cornerRadius="20dp"
+                app:backgroundTint="@color/cinefan_primary"
+                android:textColor="@android:color/white"
+                style="@style/Widget.Material3.Button.UnelevatedButton" />
+
+        </LinearLayout>
+
+        <!-- progress bar central -->
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:indeterminateTint="@color/cinefan_primary"
+            android:visibility="gone" />
+
+        <!-- indicador de carga al final -->
+        <LinearLayout
+            android:id="@+id/layout_cargando_mas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="16dp"
+            android:visibility="gone">
+
+            <ProgressBar
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:indeterminateTint="@color/cinefan_primary"
+                android:layout_marginEnd="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cargando_mas_resenas"
+                android:textSize="14sp"
+                android:textColor="@color/cinefan_text_secondary" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <!-- floating action button -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_agregar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_add"
+        app:backgroundTint="@color/cinefan_primary"
+        app:tint="@android:color/white"
+        android:contentDescription="@string/agregar_resena" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

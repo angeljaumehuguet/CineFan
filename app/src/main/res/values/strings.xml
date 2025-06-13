@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- APP INFO -->
+    <string name="app_name">CineFan</string>
+    <string name="app_description">Red social para cinéfilos</string>
+    <string name="descripcion_app">CineFan es tu red social cinematográfica</string>
+    <string name="descripcion_main">Descubre, comenta y comparte películas con otros cinéfilos</string>
+    <string name="subtitulo_app">Tu red social cinematográfica</string>
+    <string name="app_version">Versión 1.0</string>
+    <string name="version_app">1.0.0</string>
+    <string name="desarrollado_por">Desarrollado por Juan Carlos y Angel Hernandez</string>
+    <string name="logo_cinefan">Logo CineFan</string>
+    <string name="informacion_app">Información de la aplicación</string>
+
+    <!-- NAVEGACIÓN PRINCIPAL -->
+    <string name="inicio">Inicio</string>
+    <string name="peliculas">Películas</string>
+    <string name="resenas">Reseñas</string>
+    <string name="buscar">Buscar</string>
+    <string name="perfil">Perfil</string>
+    <string name="favoritos">Favoritos</string>
+    <string name="mapa">Mapa</string>
+    <string name="configuracion">Configuración</string>
+    <string name="acerca_de">Acerca de</string>
+    <string name="acerca_de_cinefan">Acerca de CineFan</string>
+    <string name="ayuda">Ayuda</string>
+    <string name="ayuda_soporte">Ayuda y soporte</string>
+    <string name="salir">Salir</string>
+    <string name="navegacion">Navegación</string>
+    <string name="menu">Menú</string>
+    <string name="comunidad">Comunidad</string>
+    <string name="mapa_cinefan">Mapa CineFan</string>
+
+    <!-- ACCESO RÁPIDO Y ACCIONES -->
+    <string name="acceso_rapido">Acceso rápido</string>
+    <string name="acciones_principales">Acciones principales</string>
+    <string name="agregar_contenido">Agregar contenido</string>
+    <string name="gestionar_contenido">Gestionar contenido</string>
+    <string name="ver_feed_resenas">Ver feed de reseñas</string>
+    <string name="ver_ubicacion_sede">Ver ubicación de la sede</string>
+
+    <!-- AUTENTICACIÓN -->
+    <string name="login">Iniciar Sesión</string>
+    <string name="titulo_login">Iniciar Sesión</string>
+    <string name="registro">Registrarse</string>
+    <string name="titulo_registro">Crear Cuenta</string>
+    <string name="usuario">Usuario</string>
+    <string name="nombre_usuario">Nombre de usuario</string>
+    <string name="usuario_o_email">Usuario o email</string>
+    <string name="email">Email</string>
+    <string name="password">Contraseña</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="confirmar_password">Confirmar Contraseña</string>
+    <string name="confirmar_contrasena">Confirmar contraseña</string>
+    <string name="nombre_completo">Nombre Completo</string>
+    <string name="biografia">Biografía</string>
+    <string name="recordar_sesion">Recordar sesión</string>
+    <string name="olvido_password">¿Olvidaste tu contraseña?</string>
+    <string name="no_tienes_cuenta">¿No tienes cuenta?</string>
+    <string name="txt_no_tienes_cuenta">¿No tienes cuenta?</string>
+    <string name="ya_tienes_cuenta">¿Ya tienes cuenta?</string>
+    <string name="txt_ya_tienes_cuenta">¿Ya tienes cuenta?</string>
+    <string name="iniciar_sesion">Iniciar sesión</string>
+    <string name="crear_cuenta">Crear cuenta</string>
+    <string name="cerrar_sesion">Cerrar sesión</string>
+    <string name="action_cerrar_sesion">Cerrar sesión</string>
+    <string name="action_configuracion">Configuración</string>
+    <string name="titulo_cerrar_sesion">Cerrar sesión</string>
+    <string name="mensaje_cerrar_sesion">¿Estás seguro que deseas cerrar sesión?</string>
+    <string name="sesion_cerrada">Sesión cerrada</string>
+    <string name="inicia_sesion_aqui">Inicia sesión aquí</string>
+    <string name="registrate_aqui">Regístrate aquí</string>
+    <string name="acepto_terminos_condiciones">Acepto términos y condiciones</string>
+
+    <!-- MENSAJES DE BIENVENIDA -->
+    <string name="bienvenido">Bienvenido</string>
+    <string name="bienvenida_default">¡Bienvenido a CineFan!</string>
+    <string name="bienvenida_login">Bienvenido de vuelta</string>
+    <string name="bienvenida_usuario">¡Hola %s!</string>
+    <string name="unete_comunidad_cinefan">Únete a la comunidad CineFan</string>
+
+    <!-- BOTONES PRINCIPALES -->
+    <string name="btn_agregar">Agregar</string>
+    <string name="btn_feed_resenas">Feed de reseñas</string>
+    <string name="btn_gestion_contenido">Gestión de contenido</string>
+    <string name="btn_guardar_pelicula">Guardar película</string>
+    <string name="btn_iniciar_sesion">Iniciar sesión</string>
+    <string name="btn_mapa_ubicacion">Mapa y ubicación</string>
+    <string name="btn_publicar_resena">Publicar reseña</string>
+    <string name="btn_registrarse">Registrarse</string>
+
+    <!-- PELÍCULAS -->
+    <string name="agregar_pelicula">Agregar película</string>
+    <string name="crear_pelicula">Crear película</string>
+    <string name="agregar_primera_pelicula">Agrega tu primera película</string>
+    <string name="titulo_pelicula">Título de la película</string>
+    <string name="titulo_agregar_pelicula">Agregar película</string>
+    <string name="titulo_editar_pelicula">Editar película</string>
+    <string name="director">Director</string>
+    <string name="ano_lanzamiento">Año de lanzamiento</string>
+    <string name="duracion_minutos">Duración (minutos)</string>
+    <string name="genero">Género</string>
+    <string name="sinopsis">Sinopsis</string>
+    <string name="imagen_pelicula">Imagen de la película</string>
+    <string name="imagen_pelicula_desc">Imagen de la película</string>
+    <string name="poster_pelicula">Póster de película</string>
+    <string name="url_imagen_opcional">URL de imagen (opcional)</string>
+    <string name="buscar_pelicula">Buscar película</string>
+    <string name="seleccionar_pelicula">Seleccionar película</string>
+    <string name="editar_pelicula">Editar película</string>
+    <string name="eliminar_pelicula">Eliminar película</string>
+    <string name="guardar_pelicula">Guardar película</string>
+    <string name="ver_pelicula">Ver película</string>
+    <string name="filtrar_genero">Filtrar por género</string>
+    <string name="ordenar_por">Ordenar por</string>
+    <string name="detalles_pelicula">Detalles de la película</string>
+    <string name="peliculas_favoritas">Películas favoritas</string>
+    <string name="agregar_favoritos">Agregar a favoritos</string>
+    <string name="quitar_favoritos">Quitar de favoritos</string>
+    <string name="favorito">Favorito</string>
+    <string name="pelicula_favorita">Película favorita</string>
+    <string name="mis_peliculas">Mis películas</string>
+    <string name="tab_mis_peliculas">Mis películas</string>
+    <string name="sin_peliculas">Sin películas</string>
+    <string name="mensaje_eliminar_pelicula">¿Eliminar esta película?</string>
+
+    <!-- RESEÑAS -->
+    <string name="publicar_resena">Publicar reseña</string>
+    <string name="crear_resena">Crear reseña</string>
+    <string name="agregar_resena">Agregar reseña</string>
+    <string name="titulo_agregar_resena">Agregar reseña</string>
+    <string name="titulo_editar_resena">Editar reseña</string>
+    <string name="editar_resena">Editar reseña</string>
+    <string name="eliminar_resena">Eliminar reseña</string>
+    <string name="escribe_tu_resena">Escribe tu reseña</string>
+    <string name="escribir_primera_resena">Escribe tu primera reseña</string>
+    <string name="comparte_tu_opinion">Comparte tu opinión</string>
+    <string name="tu_puntuacion">Tu puntuación</string>
+    <string name="puntuacion">Puntuación</string>
+    <string name="label_puntuacion">Puntuación</string>
+    <string name="descripcion_estrellas">Toca las estrellas para puntuar</string>
+    <string name="estrellas">Estrellas</string>
+    <string name="opciones_resena">Opciones de reseña</string>
+    <string name="consejos_resena">Consejos para escribir reseñas</string>
+    <string name="consejos">Consejos</string>
+    <string name="mensaje_consejos_resena">• Sé específico sobre lo que te gustó o no\n• Evita spoilers\n• Explica tus razones\n• Respeta otras opiniones</string>
+    <string name="cargando_mas_resenas">Cargando más reseñas...</string>
+    <string name="mis_resenas">Mis reseñas</string>
+    <string name="tab_mis_resenas">Mis reseñas</string>
+    <string name="todas_resenas">Todas las reseñas</string>
+    <string name="resenas_recientes">Reseñas recientes</string>
+    <string name="resenas_populares">Reseñas populares</string>
+    <string name="titulo_resena">Título de la reseña</string>
+    <string name="texto_resena">Texto de la reseña</string>
+    <string name="likes">Me gusta</string>
+    <string name="like">Me gusta</string>
+    <string name="dar_like">Dar me gusta</string>
+    <string name="quitar_like">Quitar me gusta</string>
+    <string name="spoiler_alert">Contiene spoilers</string>
+    <string name="spoiler">Spoiler</string>
+    <string name="marcar_spoiler">Marcar como spoiler</string>
+    <string name="titulo_feed">Feed de reseñas</string>
+    <string name="sin_resenas">Sin reseñas</string>
+    <string name="mensaje_eliminar_resena">¿Eliminar esta reseña?</string>
+    <string name="formato_puntuacion">%.1f/5</string>
+    <string name="promedio">Promedio</string>
+    <string name="editada">Editada</string>
+
+    <!-- HINTS/PLACEHOLDERS -->
+    <string name="hint_usuario">Nombre de usuario</string>
+    <string name="hint_email">tu@email.com</string>
+    <string name="hint_password">••••••••</string>
+    <string name="hint_nombre_completo">Tu nombre completo</string>
+    <string name="hint_nombre_usuario">Escoge un nombre de usuario</string>
+    <string name="hint_titulo_pelicula">Título de la película</string>
+    <string name="hint_director">Director de la película</string>
+    <string name="hint_ano">2024</string>
+    <string name="hint_duracion">120</string>
+    <string name="hint_genero">Selecciona un género</string>
+    <string name="hint_sinopsis">Breve descripción de la película</string>
+    <string name="hint_imagen_url">https://ejemplo.com/imagen.jpg</string>
+    <string name="hint_texto_resena">Comparte tu opinión sobre la película</string>
+    <string name="usuario_placeholder">Usuario</string>
+    <string name="titulo_pelicula_placeholder">Título</string>
+    <string name="titulo_placeholder">Título</string>
+    <string name="director_ano_placeholder">Director • Año</string>
+    <string name="duracion_placeholder">Duración</string>
+    <string name="genero_placeholder">Género</string>
+    <string name="fecha_placeholder">Fecha</string>
+    <string name="puntuacion_placeholder">★★★☆☆</string>
+    <string name="likes_placeholder">0 me gusta</string>
+    <string name="resenas_placeholder">0 reseñas</string>
+    <string name="comentarios_placeholder">Escribe un comentario...</string>
+    <string name="texto_resena_placeholder">Tu opinión aquí...</string>
+    <string name="fecha_actual">Hoy</string>
+
+    <!-- BÚSQUEDA -->
+    <string name="buscar_global">Búsqueda global</string>
+    <string name="buscar_usuarios">Buscar usuarios</string>
+    <string name="buscar_peliculas">Buscar películas</string>
+    <string name="buscar_resenas">Buscar reseñas</string>
+    <string name="resultados_busqueda">Resultados de búsqueda</string>
+    <string name="sin_resultados">Sin resultados</string>
+    <string name="busqueda_vacia">Escribe algo para buscar</string>
+    <string name="filtros">Filtros</string>
+    <string name="aplicar_filtros">Aplicar filtros</string>
+    <string name="limpiar_filtros">Limpiar filtros</string>
+
+    <!-- PERFIL Y USUARIOS -->
+    <string name="mi_perfil">Mi perfil</string>
+    <string name="perfil_usuario">Perfil de Usuario</string>
+    <string name="editar_perfil">Editar perfil</string>
+    <string name="ver_perfil">Ver perfil</string>
+    <string name="seguir">Seguir</string>
+    <string name="siguiendo">Siguiendo</string>
+    <string name="dejar_seguir">Dejar de seguir</string>
+    <string name="seguidores">Seguidores</string>
+    <string name="seguidos">Seguidos</string>
+    <string name="avatar">Avatar</string>
+    <string name="avatar_usuario">Avatar del usuario</string>
+    <string name="cambiar_avatar">Cambiar avatar</string>
+    <string name="fecha_registro">Fecha de registro</string>
+    <string name="ultimo_acceso">Último acceso</string>
+    <string name="actividad">Actividad</string>
+    <string name="configurar_cuenta">Configurar cuenta</string>
+    <string name="configurar_notificaciones">Configurar notificaciones</string>
+
+    <!-- GÉNEROS -->
+    <string name="accion">Acción</string>
+    <string name="aventura">Aventura</string>
+    <string name="comedia">Comedia</string>
+    <string name="drama">Drama</string>
+    <string name="terror">Terror</string>
+    <string name="ciencia_ficcion">Ciencia Ficción</string>
+    <string name="fantasia">Fantasía</string>
+    <string name="romance">Romance</string>
+    <string name="thriller">Thriller</string>
+    <string name="documental">Documental</string>
+    <string name="animacion">Animación</string>
+    <string name="musical">Musical</string>
+    <string name="western">Western</string>
+    <string name="seleccionar_genero">Seleccionar género</string>
+    <string name="todos_generos">Todos los géneros</string>
+
+    <!-- MAPA Y UBICACIÓN -->
+    <string name="titulo_mapa">Mapa CineFan</string>
+    <string name="sede_cinefan">Sede CineFan</string>
+    <string name="ubicacion">Ubicación</string>
+    <string name="ubicacion_sede">Ubicación de la sede</string>
+    <string name="como_llegar">Cómo llegar</string>
+    <string name="direccion">Dirección</string>
+    <string name="direccion_sede">Carrer Major, 25, 43800 Valls, Tarragona</string>
+    <string name="valls_tarragona">Valls, Tarragona</string>
+    <string name="abrir_navegacion">Abrir en navegación</string>
+    <string name="mi_ubicacion">Mi ubicación</string>
+    <string name="centrar_mapa">Centrar mapa</string>
+    <string name="centrar_en_sede">Centrar en sede</string>
+    <string name="cambiar_vista">Cambiar vista</string>
+    <string name="cambiar_tipo_mapa">Cambiar tipo de mapa</string>
+    <string name="vista_satelite">Vista satélite</string>
+    <string name="mapa_satelite">Satélite</string>
+    <string name="vista_normal">Vista normal</string>
+    <string name="mapa_normal">Normal</string>
+    <string name="vista_hibrida">Vista híbrida</string>
+    <string name="mapa_hibrido">Híbrido</string>
+    <string name="cargando_mapa">Cargando mapa...</string>
+    <string name="error_mapa">Error al cargar el mapa</string>
+    <string name="error_abrir_navegacion">Error al abrir navegación</string>
+    <string name="permisos_ubicacion">Permisos de ubicación</string>
+    <string name="activar_gps">Activar GPS</string>
+    <string name="titulo_marcador_sede">Sede CineFan Valls</string>
+    <string name="snippet_marcador_sede">Nuestra oficina principal</string>
+    <string name="informacion_sede">Información de la sede: %1$s</string>
+    <string name="preparando_ubicacion">Preparando ubicación...</string>
+
+    <!-- PERMISOS -->
+    <string name="permiso_ubicacion_titulo">Permiso de ubicación</string>
+    <string name="permiso_ubicacion_mensaje">CineFan necesita acceso a tu ubicación para mostrar tu posición en el mapa y calcular rutas</string>
+    <string name="mensaje_permisos_ubicacion">Permiso de ubicación necesario para esta función</string>
+    <string name="permiso_ubicacion_concedido">Permiso de ubicación concedido</string>
+    <string name="permiso_ubicacion_denegado">Sin acceso a ubicación. Algunas funciones estarán limitadas</string>
+    <string name="error_permisos_ubicacion">Error en permisos de ubicación</string>
+    <string name="permitir">Permitir</string>
+    <string name="conceder">Conceder</string>
+    <string name="permiso_ubicacion_explicacion">CineFan necesita acceso a tu ubicación para mostrar tu posición en el mapa y calcular rutas</string>
+
+    <!-- ACCIONES GENERALES -->
+    <string name="guardar">Guardar</string>
+    <string name="editar">Editar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="responder">Responder</string>
+    <string name="comentar">Comentar</string>
+    <string name="refrescar">Refrescar</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="volver">Volver</string>
+    <string name="anterior">Anterior</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="terminado">Terminado</string>
+    <string name="entendido">Entendido</string>
+    <string name="continuar">Continuar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="cerrar">Cerrar</string>
+    <string name="si">Sí</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>
+    <string name="enviar">Enviar</string>
+    <string name="compartir">Compartir</string>
+    <string name="seleccionar">Seleccionar</string>
+    <string name="cargar_mas">Cargar más</string>
+    <string name="llamar">Llamar</string>
+
+    <!-- ESTADOS Y MENSAJES -->
+    <string name="cargando">Cargando...</string>
+    <string name="conectando">Conectando...</string>
+    <string name="guardando">Guardando...</string>
+    <string name="enviando">Enviando...</string>
+    <string name="procesando">Procesando...</string>
+    <string name="actualizando">Actualizando...</string>
+    <string name="exito">Éxito</string>
+    <string name="completado">Completado</string>
+    <string name="operacion_exitosa">Operación exitosa</string>
+    <string name="datos_guardados">Datos guardados correctamente</string>
+    <string name="guardado_exitoso">Guardado exitosamente</string>
+    <string name="eliminado_exitoso">Eliminado exitosamente</string>
+    <string name="accion_completada">Acción completada</string>
+    <string name="sin_datos">Sin datos</string>
+    <string name="proximamente">Próximamente</string>
+    <string name="total">Total</string>
+    <string name="advertencia">Advertencia</string>
+
+    <!-- ERRORES -->
+    <string name="error">Error</string>
+    <string name="error_conexion">Error de conexión</string>
+    <string name="error_servidor">Error del servidor</string>
+    <string name="error_inesperado">Error inesperado</string>
+    <string name="error_credenciales_incorrectas">Credenciales incorrectas</string>
+    <string name="error_usuario_existente">El usuario ya existe</string>
+    <string name="error_usuario_no_encontrado">Usuario no encontrado</string>
+    <string name="error_email_invalido">Email inválido</string>
+    <string name="error_password_corta">La contraseña es muy corta</string>
+    <string name="error_passwords_no_coinciden">Las contraseñas no coinciden</string>
+    <string name="error_campos_vacios">Completa todos los campos</string>
+    <string name="error_campo_requerido">Este campo es requerido</string>
+    <string name="error_formato_invalido">Formato inválido</string>
+    <string name="error_sin_conexion">Sin conexión a internet</string>
+    <string name="error_tiempo_agotado">Tiempo de conexión agotado</string>
+    <string name="error_permisos">Error de permisos</string>
+    <string name="error_archivo_no_encontrado">Archivo no encontrado</string>
+    <string name="error_usuario_vacio">El usuario no puede estar vacío</string>
+    <string name="error_usuario_corto">El usuario es muy corto</string>
+    <string name="error_password_vacio">La contraseña no puede estar vacía</string>
+    <string name="error_email_vacio">El email no puede estar vacío</string>
+    <string name="error_nombre_vacio">El nombre no puede estar vacío</string>
+    <string name="error_nombre_muy_corto">El nombre es muy corto</string>
+    <string name="error_confirmar_password_vacio">Confirma la contraseña</string>
+    <string name="error_ano_invalido">Año inválido</string>
+    <string name="error_duracion_invalida">Duración inválida</string>
+    <string name="error_cargar_peliculas">Error al cargar películas</string>
+    <string name="error_procesar_respuesta">Error al procesar respuesta</string>
+    <string name="error_respuesta_servidor">Error en respuesta del servidor</string>
+    <string name="error_resena_larga">La reseña es muy larga</string>
+    <string name="error_iniciar_musica">Error al iniciar música</string>
+    <string name="reintentar">Reintentar</string>
+
+    <!-- MENSAJES INFORMATIVOS -->
+    <string name="mensaje_feed_vacio">No hay reseñas para mostrar</string>
+    <string name="mensaje_sin_peliculas">No tienes películas registradas</string>
+    <string name="mensaje_sin_resenas">No hay reseñas disponibles</string>
+    <string name="no_hay_resenas_feed">El feed está vacío. ¡Sé el primero en escribir una reseña!</string>
+    <string name="no_tienes_peliculas">No tienes películas. ¡Agrega algunas para comenzar!</string>
+    <string name="no_tienes_resenas">No has escrito reseñas aún</string>
+    <string name="no_hay_favoritos">No tienes películas favoritas</string>
+    <string name="sin_seguidores">No tienes seguidores aún</string>
+    <string name="sin_seguidos">No sigues a nadie aún</string>
+    <string name="lista_vacia">La lista está vacía</string>
+    <string name="contenido_no_disponible">Contenido no disponible</string>
+
+    <!-- AYUDAS Y TOOLTIPS -->
+    <string name="ayuda_buscar_pelicula">Busca por título, director o género</string>
+    <string name="ayuda_url_imagen">Pega aquí la URL de una imagen de la película</string>
+    <string name="cargar_vista_previa">Cargar vista previa</string>
+    <string name="vista_previa_imagen">Vista previa de la imagen</string>
+    <string name="consejo_puntuacion">Puntúa del 1 al 5 estrellas</string>
+    <string name="consejo_resena">Comparte tu opinión honesta</string>
+    <string name="consejo_spoiler">Marca si contiene spoilers</string>
+    <string name="mensaje_ayuda">¿Necesitas ayuda?</string>
+    <string name="ayuda_contrasena">La contraseña debe tener al menos 6 caracteres</string>
+    <string name="ayuda_nombre_usuario">Elige un nombre único que te identifique</string>
+
+    <!-- CONFIRMACIONES -->
+    <string name="confirmar_eliminacion">¿Estás seguro de que quieres eliminar?</string>
+    <string name="confirmar_eliminar_pelicula">¿Eliminar esta película?</string>
+    <string name="confirmar_eliminar_resena">¿Eliminar esta reseña?</string>
+    <string name="confirmar_cerrar_sesion">¿Cerrar sesión?</string>
+    <string name="confirmar_salir">¿Salir de la aplicación?</string>
+    <string name="titulo_salir_app">Salir de CineFan</string>
+    <string name="mensaje_salir_app">¿Estás seguro que quieres salir?</string>
+    <string name="accion_irreversible">Esta acción no se puede deshacer</string>
+
+    <!-- FUNCIONALIDADES ADICIONALES -->
+    <string name="ver_estadisticas">Ver estadísticas</string>
+    <string name="exportar_datos">Exportar datos</string>
+    <string name="importar_datos">Importar datos</string>
+    <string name="estadisticas">Estadísticas</string>
+    <string name="total_peliculas">Total de películas</string>
+    <string name="total_resenas">Total de reseñas</string>
+    <string name="puntuacion_promedio">Puntuación promedio</string>
+    <string name="actividad_reciente">Actividad reciente</string>
+    <string name="tendencias">Tendencias</string>
+    <string name="populares">Populares</string>
+    <string name="mejor_valoradas">Mejor valoradas</string>
+    <string name="recientes">Recientes</string>
+    <string name="titulo_gestion">Gestión</string>
+
+    <!-- NOTIFICACIONES -->
+    <string name="notificaciones">Notificaciones</string>
+    <string name="notificacion_llamada_finalizada_titulo">Llamada CineFan</string>
+    <string name="notificacion_llamada_finalizada_mensaje">Llamada finalizada - Comparte tu experiencia cinematográfica</string>
+    <string name="notificacion_sms_cine_titulo">Mensaje sobre cine</string>
+    <string name="notificacion_sms_contenido">Has recibido un mensaje relacionado con cine</string>
+    <string name="notificacion_llamada_titulo">Llamada recibida</string>
+    <string name="notificacion_sms_titulo">Mensaje recibido</string>
+    <string name="notif_titulo_llamada">CineFan - Llamada</string>
+    <string name="notif_mensaje_llamada">Nueva llamada recibida</string>
+    <string name="notif_titulo_sms">CineFan - SMS</string>
+    <string name="notif_mensaje_sms">Nuevo mensaje recibido</string>
+    <string name="notificacion_llamada_mensaje_con_numero">Llamada recibida de %s</string>
+    <string name="notificacion_llamada_mensaje_sin_numero">Llamada recibida</string>
+    <string name="numero_no_disponible">Número no disponible</string>
+    <string name="nueva_resena_notif">Nueva reseña publicada</string>
+    <string name="nuevo_seguidor_notif">Tienes un nuevo seguidor</string>
+    <string name="like_resena_notif">Alguien le gustó tu reseña</string>
+
+    <!-- MÚSICA Y MULTIMEDIA -->
+    <string name="musica">Música</string>
+    <string name="reproducir">Reproducir</string>
+    <string name="pausar">Pausar</string>
+    <string name="detener">Detener</string>
+    <string name="volumen">Volumen</string>
+    <string name="silenciar">Silenciar</string>
+    <string name="musica_fondo">Música de fondo</string>
+    <string name="activar_musica">Activar música</string>
+    <string name="desactivar_musica">Desactivar música</string>
+    <string name="musica_activada">Música activada</string>
+    <string name="musica_desactivada">Música desactivada</string>
+    <string name="controlar_musica">Controlar música</string>
+
+    <!-- CONFIGURACIÓN -->
+    <string name="idioma">Idioma</string>
+    <string name="tema">Tema</string>
+    <string name="tema_oscuro">Tema oscuro</string>
+    <string name="tema_claro">Tema claro</string>
+    <string name="notificaciones_push">Notificaciones push</string>
+    <string name="sonidos">Sonidos</string>
+    <string name="privacidad">Privacidad</string>
+    <string name="cuenta">Cuenta</string>
+    <string name="general">General</string>
+    <string name="aplicacion">Aplicación</string>
+    <string name="informacion">Información</string>
+    <string name="version">Versión</string>
+    <string name="licencias">Licencias</string>
+    <string name="contacto">Contacto</string>
+    <string name="soporte">Soporte</string>
+
+    <!-- TIEMPO Y FECHAS -->
+    <string name="hoy">Hoy</string>
+    <string name="ayer">Ayer</string>
+    <string name="hace_momento">Hace un momento</string>
+    <string name="hace_minutos">Hace %d minutos</string>
+    <string name="hace_horas">Hace %d horas</string>
+    <string name="hace_dias">Hace %d días</string>
+    <string name="fecha_formato">dd/MM/yyyy</string>
+    <string name="hora_formato">HH:mm</string>
+
+    <!-- PLURALES Y CONTADORES -->
+    <string name="pelicula_singular">película</string>
+    <string name="peliculas_plural">películas</string>
+    <string name="resena_singular">reseña</string>
+    <string name="resenas_plural">reseñas</string>
+    <string name="usuario_singular">usuario</string>
+    <string name="usuarios_plural">usuarios</string>
+    <string name="seguidor_singular">seguidor</string>
+    <string name="seguidores_plural">seguidores</string>
+
+    <!-- ORDENAMIENTO -->
+    <string name="ordenar_titulo">Por título</string>
+    <string name="ordenar_fecha">Por fecha</string>
+    <string name="ordenar_puntuacion">Por puntuación</string>
+    <string name="ordenar_popularidad">Por popularidad</string>
+    <string name="ordenar_alfabetico">Alfabético</string>
+    <string name="ascendente">Ascendente</string>
+    <string name="descendente">Descendente</string>
+
+    <!-- MATERIAL DESIGN -->
+    <string name="navigation_drawer_open">Abrir menú de navegación</string>
+    <string name="navigation_drawer_close">Cerrar menú de navegación</string>
+    <string name="mas_opciones">Más opciones</string>
+    <string name="expandir">Expandir</string>
+    <string name="contraer">Contraer</string>
+
+    <!-- CONECTIVIDAD -->
+    <string name="conectado">Conectado</string>
+    <string name="desconectado">Desconectado</string>
+    <string name="sin_internet">Sin conexión a internet</string>
+    <string name="conexion_lenta">Conexión lenta</string>
+    <string name="verificar_conexion">Verificar conexión</string>
+    <string name="modo_offline">Modo sin conexión</string>
+
+    <!-- SPLASH Y BIENVENIDA -->
+    <string name="cargando_app">Cargando aplicación...</string>
+    <string name="iniciando">Iniciando...</string>
+    <string name="preparando">Preparando...</string>
+
+</resources>

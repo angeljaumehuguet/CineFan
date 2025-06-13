@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cinefan"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="24"
+        android:targetSdkVersion="34" />
+
+    <!-- ======= PERMISOS NECESARIOS ======= -->
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <!-- Permisos de red -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- Permisos de ubicación para el mapa -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!-- Permisos para notificaciones y receptores -->
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <!-- NUEVOS PERMISOS PARA SERVICIO DE MÚSICA -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
+
+    <!-- Permisos para almacenamiento (opcional) -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <queries>
+
+        <!-- Needs to be explicitly declared on Android R+ -->
+        <package android:name="com.google.android.apps.maps" />
+    </queries>
+
+    <permission
+        android:name="com.example.cinefan.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.example.cinefan.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true" >
+
+        <!-- ======= METADATA ======= -->
+        <!-- API Key de Google Maps -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBCYdonAo-DUT_7UrJ5emfeSQbgASeut-4" />
+
+        <!-- ======= ACTIVIDADES ======= -->
+
+
+        <!-- Actividad de splash (LAUNCHER) -->
+        <activity
+            android:name="com.example.cinefan.actividades.SplashActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Actividad principal -->
+        <activity
+            android:name="com.example.cinefan.actividades.MainActivity"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <!-- Actividad de login -->
+        <activity
+            android:name="com.example.cinefan.actividades.LoginActivity"
+            android:exported="false"
+            android:label="@string/iniciar_sesion"
+            android:parentActivityName="com.example.cinefan.actividades.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- Actividad de registro -->
+        <activity
+            android:name="com.example.cinefan.actividades.RegistroActivity"
+            android:exported="false"
+            android:label="@string/registro"
+            android:parentActivityName="com.example.cinefan.actividades.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- Actividad del feed -->
+        <activity
+            android:name="com.example.cinefan.actividades.FeedActivity"
+            android:exported="false"
+            android:label="@string/titulo_feed"
+            android:parentActivityName="com.example.cinefan.actividades.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <!-- Actividad de gestión -->
+        <activity
+            android:name="com.example.cinefan.actividades.GestionActivity"
+            android:exported="false"
+            android:label="@string/titulo_gestion"
+            android:parentActivityName="com.example.cinefan.actividades.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <!-- Actividad del mapa -->
+        <activity
+            android:name="com.example.cinefan.actividades.MapaActivity"
+            android:exported="false"
+            android:label="@string/titulo_mapa"
+            android:parentActivityName="com.example.cinefan.actividades.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <!-- Actividad para agregar película -->
+        <activity
+            android:name="com.example.cinefan.actividades.AgregarPeliculaActivity"
+            android:exported="false"
+            android:label="@string/agregar_pelicula"
+            android:parentActivityName="com.example.cinefan.actividades.GestionActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- Actividad para agregar reseña -->
+        <activity
+            android:name="com.example.cinefan.actividades.AgregarResenaActivity"
+            android:exported="false"
+            android:label="@string/agregar_resena"
+            android:parentActivityName="com.example.cinefan.actividades.FeedActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- Actividad de perfil de usuario -->
+        <activity
+            android:name="com.example.cinefan.actividades.PerfilActivity"
+            android:exported="false"
+            android:label="@string/perfil_usuario"
+            android:parentActivityName="com.example.cinefan.actividades.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <!-- ======= SERVICIOS ======= -->
+
+
+        <!-- SERVICIO DE MÚSICA CORREGIDO -->
+        <service
+            android:name="com.example.cinefan.servicios.ServicioMusica"
+            android:enabled="true"
+            android:exported="false"
+            android:foregroundServiceType="mediaPlayback"
+            android:stopWithTask="true" />
+
+        <!-- ======= RECEPTORES ======= -->
+
+
+        <!-- Receptor de llamadas -->
+        <receiver
+            android:name="com.example.cinefan.receptores.ReceptorLlamadas"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter android:priority="1000" >
+                <action android:name="android.intent.action.PHONE_STATE" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Receptor de SMS -->
+        <receiver
+            android:name="com.example.cinefan.receptores.ReceptorSms"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter android:priority="1000" >
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- ======= PROVEEDORES DE CONTENIDO ======= -->
+
+
+        <!-- Proveedor de archivos para compartir -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.cinefan.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.example.cinefan.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+                android:value="androidx.startup" />
+        </provider> <!-- Needs to be explicitly declared on P+ -->
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <receiver
+            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+            android:directBootAware="false"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.DUMP" >
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

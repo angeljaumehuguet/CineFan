@@ -1,0 +1,94 @@
+buildscript {
+    ext {
+        compile_sdk_version = 34
+        min_sdk_version = 24
+        target_sdk_version = 34
+        version_code = 1
+        version_name = "1.0"
+        
+        gradle_version = '8.2.0'
+        kotlin_version = '1.9.20'
+        google_services_version = '4.4.0'
+        maps_secrets_version = '2.0.1'
+    }
+    
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+    
+    dependencies {
+        classpath "com.android.tools.build:gradle:$gradle_version"
+        classpath "com.google.android.libraries.mapsplatform.secrets-gradle-plugin:secrets-gradle-plugin:$maps_secrets_version"
+    }
+}
+
+plugins {
+    id 'com.android.application' version '8.2.0' apply false
+    id 'com.android.library' version '8.2.0' apply false
+    id 'com.google.android.libraries.mapsplatform.secrets-gradle-plugin' version '2.0.1' apply false
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+        maven { url 'https://maven.google.com' }
+        maven { url 'https://oss.sonatype.org/content/repositories/snapshots/' }
+    }
+}
+
+ext {
+    cinefan_config = [
+        application_id: "com.example.cinefan",
+        min_sdk: 24,
+        target_sdk: 34,
+        compile_sdk: 34,
+        version_code: 1,
+        version_name: "1.0",
+        
+        build_tools_version: "34.0.0",
+        junit_version: "4.13.2",
+        espresso_version: "3.5.1",
+        androidx_core_version: "1.12.0",
+        androidx_appcompat_version: "1.6.1",
+        material_version: "1.11.0",
+        google_maps_version: "18.2.0",
+        google_location_version: "21.0.1",
+        volley_version: "1.2.1",
+        gson_version: "2.10.1",
+        glide_version: "4.16.0"
+    ]
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+subprojects {
+    afterEvaluate { project ->
+        if (project.hasProperty('android')) {
+            android {
+                compileSdkVersion cinefan_config.compile_sdk
+                
+                defaultConfig {
+                    minSdkVersion cinefan_config.min_sdk
+                    targetSdkVersion cinefan_config.target_sdk
+                }
+                
+                compileOptions {
+                    sourceCompatibility JavaVersion.VERSION_1_8
+                    targetCompatibility JavaVersion.VERSION_1_8
+                }
+                
+                lintOptions {
+                    abortOnError false
+                    checkReleaseBuilds false
+                    disable 'MissingTranslation', 'ExtraTranslation'
+                }
+            }
+        }
+    }
+}

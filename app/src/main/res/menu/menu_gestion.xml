@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- refrescar -->
+    <item
+        android:id="@+id/action_refrescar"
+        android:title="@string/refrescar"
+        android:icon="@drawable/ic_refresh"
+        app:showAsAction="ifRoom" />
+
+    <!-- estadisticas -->
+    <item
+        android:id="@+id/action_estadisticas"
+        android:title="@string/ver_estadisticas"
+        android:icon="@drawable/ic_analytics"
+        app:showAsAction="never" />
+
+    <!-- exportar -->
+    <item
+        android:id="@+id/action_exportar"
+        android:title="@string/exportar_datos"
+        android:icon="@drawable/ic_download"
+        app:showAsAction="never" />
+
+    <!-- importar -->
+    <item
+        android:id="@+id/action_importar"
+        android:title="@string/importar_datos"
+        android:icon="@drawable/ic_upload"
+        app:showAsAction="never" />
+
+</menu>

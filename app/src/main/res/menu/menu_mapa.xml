@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_tipo_normal"
+        android:title="Mapa Normal"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_tipo_satelite"
+        android:title="Vista Satélite"
+        android:orderInCategory="101"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_tipo_hibrido"
+        android:title="Vista Híbrida"
+        android:orderInCategory="102"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_centrar_sede"
+        android:title="Centrar en Sede"
+        android:orderInCategory="103"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_informacion"
+        android:title="Información"
+        android:orderInCategory="104"
+        app:showAsAction="never" />
+
+</menu>

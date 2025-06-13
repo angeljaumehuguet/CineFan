@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cinefan_background"
+    tools:context=".actividades.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="24dp"
+            android:gravity="center_vertical">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt_bienvenida"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bienvenida_default"
+                    android:textSize="28sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cinefan_primary"
+                    tools:text="¡Hola, Ángel!" />
+
+                <TextView
+                    android:id="@+id/txt_fecha_hora"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fecha_actual"
+                    android:textSize="14sp"
+                    android:textColor="@color/cinefan_text_secondary"
+                    android:layout_marginTop="4dp" />
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/btn_musica"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_music_on"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/controlar_musica"
+                android:layout_marginStart="8dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_descripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/descripcion_main"
+            android:textSize="16sp"
+            android:textColor="@color/cinefan_text_primary"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="32dp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="8dp"
+            app:cardBackgroundColor="@color/cinefan_surface"
+            android:layout_marginBottom="24dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/acciones_principales"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cinefan_text_primary"
+                    android:layout_marginBottom="16dp"
+                    android:gravity="center" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_feed"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:text="@string/ver_feed_resenas"
+                    android:textSize="16sp"
+                    android:background="@color/cinefan_primary"
+                    android:textColor="@color/text_white"
+                    android:layout_marginBottom="12dp" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_gestion"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:text="@string/gestionar_contenido"
+                    android:textSize="16sp"
+                    android:background="@android:color/transparent"
+                    android:textColor="@color/cinefan_primary"
+                    android:layout_marginBottom="12dp" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_mapa"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:text="@string/ver_ubicacion_sede"
+                    android:textSize="16sp"
+                    android:background="@android:color/transparent"
+                    android:textColor="@color/cinefan_accent" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/acceso_rapido"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/cinefan_text_primary"
+            android:layout_marginBottom="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp"
+                app:cardBackgroundColor="@color/cinefan_surface"
+                android:layout_marginEnd="8dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:id="@+id/card_agregar_pelicula"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:src="@drawable/ic_movie"
+                        android:layout_marginBottom="8dp"
+                        android:contentDescription="@string/agregar_pelicula" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/agregar_pelicula"
+                        android:textSize="12sp"
+                        android:textColor="@color/cinefan_text_primary"
+                        android:gravity="center"
+                        android:maxLines="2"
+                        android:ellipsize="end" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp"
+                app:cardBackgroundColor="@color/cinefan_surface"
+                android:layout_marginStart="8dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:id="@+id/card_nueva_resena"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:src="@drawable/ic_star_filled"
+                        android:layout_marginBottom="8dp"
+                        android:contentDescription="@string/agregar_resena" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/agregar_resena"
+                        android:textSize="12sp"
+                        android:textColor="@color/cinefan_text_primary"
+                        android:gravity="center"
+                        android:maxLines="2"
+                        android:ellipsize="end" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/cinefan_divider"
+            android:layout_marginVertical="24dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="16dp">
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/ic_movie"
+                android:contentDescription="@string/logo_cinefan"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/subtitulo_app"
+                android:textSize="14sp"
+                android:textColor="@color/cinefan_text_secondary"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/version_app"
+                android:textSize="12sp"
+                android:textColor="@color/cinefan_text_tertiary"
+                android:layout_marginTop="4dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
