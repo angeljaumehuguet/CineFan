@@ -157,6 +157,7 @@ drawable ic_user
 drawable ic_user_default
 drawable ic_view_grid
 drawable ic_warning
+drawable logo_cinefan
 drawable ripple_primary
 drawable splash_background
 id action_acerca_de
@@ -280,6 +281,7 @@ menu menu_main
 menu menu_mapa
 mipmap ic_launcher
 mipmap ic_launcher_round
+mipmap logo_cinefan
 raw estilo_mapa
 raw musica_fondo
 string abrir_navegacion

@@ -1,474 +1,502 @@
 [
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_splash_background.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/splash_background.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_download.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_download.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_image.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_image.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_person_director.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_person_director.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.cinefan.app-main-39:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\layout_item_pelicula.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\layout\\item_pelicula.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_add_review.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_add_review.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_add_review.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_add_review.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/xml_backup_rules.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\layout_fragment_placeholder.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\layout\\fragment_placeholder.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_user.png.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_user.png"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/layout_activity_login.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/layout/activity_login.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_movie_add.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_movie_add.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_bg_rating_chip.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/bg_rating_chip.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_person_add.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_person_add.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_music_on.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_music_on.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_empty_reviews.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_empty_reviews.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_comment.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_comment.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_save.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_save.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_lock_check.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_lock_check.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_analytics.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_analytics.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_location_cinema.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_location_cinema.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\layout_activity_feed.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\layout\\activity_feed.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_music_off.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_music_off.xml"
+        "merged": "com.example.cinefan.app-merged_res-37:/mipmap-xhdpi_logo_cinefan.png.flat",
+        "source": "com.example.cinefan.app-main-39:/mipmap-xhdpi/logo_cinefan.png"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_timer.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_timer.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_sort.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_sort.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_my_location.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_my_location.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_comment.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_comment.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_bg_circle.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/bg_circle.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_settings.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_settings.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_movie_placeholder.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_movie_placeholder.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_category.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_category.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_button_selector.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/button_selector.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\menu_menu_mapa.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\menu\\menu_mapa.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_calendar.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_calendar.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_thumb_up.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_thumb_up.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_gradient_background_registro.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/gradient_background_registro.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\layout_activity_mapa.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\layout\\activity_mapa.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_logout.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_logout.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_reviews.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_reviews.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_empty_movies.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_empty_movies.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\layout_activity_gestion.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\layout\\activity_gestion.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_arrow_back.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_arrow_back.xml"
+        "merged": "com.example.cinefan.app-merged_res-37:/mipmap-xxxhdpi_logo_cinefan.png.flat",
+        "source": "com.example.cinefan.app-main-39:/mipmap-xxxhdpi/logo_cinefan.png"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_person_add.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_person_add.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_splash_background.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\splash_background.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_add.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_add.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_empty_feed.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_empty_feed.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_warning.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_warning.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_info.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_info.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_sort.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_sort.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_gradient_background_registro.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\gradient_background_registro.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_message.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_message.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_center_focus.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_center_focus.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_navigation.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_navigation.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_movie_search.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_movie_search.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_bg_chip_genero.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/bg_chip_genero.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_bg_movie_info.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\bg_movie_info.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_lightbulb.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_lightbulb.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/xml_file_paths.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/xml/file_paths.xml"
+        "merged": "com.example.cinefan.app-merged_res-37:/mipmap-hdpi_logo_cinefan.png.flat",
+        "source": "com.example.cinefan.app-main-39:/mipmap-hdpi/logo_cinefan.png"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_more_vert.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_more_vert.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_image_error.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_image_error.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_bg_movie_info.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/bg_movie_info.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_search.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_search.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_info.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_info.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_button_selector.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\button_selector.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_upload.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_upload.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_bg_rating_chip.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\bg_rating_chip.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_refresh.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_refresh.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_bg_warning_chip.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\bg_warning_chip.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_empty_feed.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_empty_feed.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_arrow_back.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_arrow_back.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_filter.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_filter.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_save.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_save.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_user.png.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_user.png"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/layout_fragment_placeholder.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/layout/fragment_placeholder.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_phone.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_phone.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_movie_search.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_movie_search.xml"
+        "merged": "com.example.cinefan.app-merged_res-37:/mipmap-mdpi_logo_cinefan.png.flat",
+        "source": "com.example.cinefan.app-main-39:/mipmap-mdpi/logo_cinefan.png"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_bg_mini_chip.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/bg_mini_chip.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_lock.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_lock.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.cinefan.app-main-39:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_view_grid.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_view_grid.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/raw_musica_fondo.mp3.flat",
-        "source": "com.example.cinefan.app-main-39:/raw/musica_fondo.mp3"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_review_add.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_review_add.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.cinefan.app-main-39:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\layout_activity_registro.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\layout\\activity_registro.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_map_loading.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_map_loading.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_bg_info_chip.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\bg_info_chip.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/layout_activity_agregar_resena.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/layout/activity_agregar_resena.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_movie.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_movie.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_refresh.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_refresh.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_review_add.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_review_add.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_preview.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_preview.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_reviews.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_reviews.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_calendar.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_calendar.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_thumb_up.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_thumb_up.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_add.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_add.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_view_grid.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_view_grid.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\menu_menu_feed.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\menu\\menu_feed.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_bg_image_placeholder.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/bg_image_placeholder.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\color_selector_bottom_nav.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\color\\selector_bottom_nav.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/menu_menu_gestion.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/menu/menu_gestion.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_more_vert.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_more_vert.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/layout_item_resena.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/layout/item_resena.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_bg_mini_chip.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\bg_mini_chip.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_empty_reviews.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_empty_reviews.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_cinema_marker.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_cinema_marker.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_warning.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_warning.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_person.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_person.xml"
+        "merged": "com.example.cinefan.app-merged_res-37:/mipmap-xxhdpi_logo_cinefan.png.flat",
+        "source": "com.example.cinefan.app-main-39:/mipmap-xxhdpi/logo_cinefan.png"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/layout_activity_registro.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/layout/activity_registro.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_bg_genre_chip.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\bg_genre_chip.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ripple_primary.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ripple_primary.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_bg_image_placeholder.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\bg_image_placeholder.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_preview.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_preview.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_map_layers.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_map_layers.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\xml_file_paths.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\xml\\file_paths.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/layout_activity_gestion.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/layout/activity_gestion.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_message_cinema.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_message_cinema.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_person_placeholder.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_person_placeholder.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_bg_genre_chip.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/bg_genre_chip.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/layout_activity_agregar_peliculas.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/layout/activity_agregar_peliculas.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\menu_menu_main.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\menu\\menu_main.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_lock.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_lock.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_movie_placeholder.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_movie_placeholder.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_cinema_marker.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_cinema_marker.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_upload.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_upload.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_lightbulb.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_lightbulb.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_image.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_image.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_at.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_at.xml"
+        "merged": "com.example.cinefan.app-merged_res-37:/drawable_logo_cinefan.png.flat",
+        "source": "com.example.cinefan.app-main-39:/drawable/logo_cinefan.png"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_message_cinema.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_message_cinema.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_music_off.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_music_off.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.cinefan.app-main-39:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "com.example.cinefan.app-merged_res-37:/mipmap-anydpi-v26_logo_cinefan.png.flat",
+        "source": "com.example.cinefan.app-main-39:/mipmap-anydpi-v26/logo_cinefan.png"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_image_error.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_image_error.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_movie_add.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_movie_add.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_email.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_email.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_center_focus.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_center_focus.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_star_filled.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_star_filled.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_movie_empty.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_movie_empty.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\raw_musica_fondo.mp3.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\raw\\musica_fondo.mp3"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/raw_estilo_mapa.json.flat",
-        "source": "com.example.cinefan.app-main-39:/raw/estilo_mapa.json"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_share.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_share.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\layout\\activity_login.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_bg_info_chip.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/bg_info_chip.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_timer.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_timer.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/menu_menu_feed.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/menu/menu_feed.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_bg_warning_chip.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/bg_warning_chip.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_location_cinema.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_location_cinema.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_download.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_download.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\layout_activity_agregar_resena.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\layout\\activity_agregar_resena.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_music_note.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_music_note.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_music_note.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_music_note.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_gradient_background_login.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/gradient_background_login.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_movie_small.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_movie_small.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_movie_empty.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_movie_empty.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_movie.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_movie.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_message.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_message.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/layout_item_pelicula.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/layout/item_pelicula.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_star_filled.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_star_filled.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.cinefan.app-main-39:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_gradient_background_login.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\gradient_background_login.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_bg_circle.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\bg_circle.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_phone_missed.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_phone_missed.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_navigation.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_navigation.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/layout_fragment_mis_peliculas.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/layout/fragment_mis_peliculas.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ripple_primary.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ripple_primary.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_settings.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_settings.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_empty_movies.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_empty_movies.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_analytics.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_analytics.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_phone_missed.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_phone_missed.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/menu_menu_main.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/menu/menu_main.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_person_placeholder.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_person_placeholder.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.cinefan.app-main-39:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_publish.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_publish.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/layout_activity_main.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/layout/activity_main.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_person.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_person.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/menu_menu_mapa.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/menu/menu_mapa.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_music_on.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_music_on.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.cinefan.app-main-39:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\layout_fragment_mis_peliculas.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\layout\\fragment_mis_peliculas.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_person_director.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_person_director.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_movie_small.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_movie_small.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_user_default.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_user_default.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_filter.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_filter.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/color_selector_bottom_nav.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/color/selector_bottom_nav.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_lock_check.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_lock_check.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_search.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_search.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_logout.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_logout.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_publish.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_publish.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\layout_activity_agregar_peliculas.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\layout\\activity_agregar_peliculas.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/layout_activity_feed.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/layout/activity_feed.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_add_movie.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_add_movie.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_category.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_category.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_at.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_at.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_email.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_email.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\layout_fragment_mis_resenas.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\layout\\fragment_mis_resenas.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.cinefan.app-main-39:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/drawable_ic_phone.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/drawable/ic_phone.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_my_location.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_my_location.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/layout_activity_splash.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/layout/activity_splash.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_share.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_share.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/layout_fragment_mis_resenas.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/layout/fragment_mis_resenas.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\layout_item_resena.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\layout\\item_resena.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/layout_activity_mapa.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/layout/activity_mapa.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/xml_network_security_config.xml.flat",
-        "source": "com.example.cinefan.app-main-39:/xml/network_security_config.xml"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_user_default.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_user_default.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.cinefan.app-main-39:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_bg_chip_genero.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\bg_chip_genero.xml"
     },
     {
-        "merged": "com.example.cinefan.app-merged_res-37:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.cinefan.app-main-39:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\menu_menu_gestion.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\menu\\menu_gestion.xml"
+    },
+    {
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_map_layers.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_map_layers.xml"
+    },
+    {
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_add_movie.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_add_movie.xml"
+    },
+    {
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\xml_network_security_config.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\xml\\network_security_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\drawable_ic_map_loading.xml.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\drawable\\ic_map_loading.xml"
+    },
+    {
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-merged_res-37:\\raw_estilo_mapa.json.flat",
+        "source": "C:\\Users\\angel\\.gradle\\daemon\\8.11.1\\com.example.cinefan.app-main-39:\\raw\\estilo_mapa.json"
     }
 ]

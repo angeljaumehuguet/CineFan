@@ -3238,6 +3238,7 @@ drawable ic_user_default
 drawable ic_view_grid
 drawable ic_warning
 drawable indeterminate_static
+drawable logo_cinefan
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
 drawable m3_bottom_sheet_drag_handle
@@ -4142,6 +4143,7 @@ menu menu_main
 menu menu_mapa
 mipmap ic_launcher
 mipmap ic_launcher_round
+mipmap logo_cinefan
 plurals mtrl_badge_content_description
 raw estilo_mapa
 raw musica_fondo
